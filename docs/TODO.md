@@ -24,8 +24,8 @@
 
 ### Processing
 
-- [ ] Normalize data
-- [ ] Create item lookup map
+- [ - ] Normalize data
+- [ - ] Create item lookup map
 - [ ] Create recipe lookup map
 - [ ] Optimize JSON
 - [ ] Store locally

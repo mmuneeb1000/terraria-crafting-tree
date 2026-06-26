@@ -39,6 +39,7 @@ function cleanIngredient(ingredient) {
   };
 }
 function toSlug(str) {
+  if (!str) return "unknown";
   return str
     .toLowerCase()
     .replace(/['"]/g, "")
@@ -69,17 +70,25 @@ for (const [id, item] of Object.entries(raw)) {
   };
 
   if (item.recipes) {
-    recipes[id] = item.recipes.map((recipe) => ({
+    recipes[safeId] = item.recipes.map((recipe) => ({
       station: recipe.station ?? null,
       amount: Number(recipe.amount ?? 1),
-      ingredients: (recipe.ings ?? []).map(cleanIngredient),
+
+      ingredients: (recipe.ings ?? []).map((ingredient) => {
+        const cleaned = cleanIngredient(ingredient);
+
+        return {
+          ...cleaned,
+          item: toSlug(cleaned.item),
+        };
+      }),
     }));
 
     stats.recipes++;
   }
 
   search.push({
-    id,
+    id: safeId,
     name: item.name,
   });
 }
