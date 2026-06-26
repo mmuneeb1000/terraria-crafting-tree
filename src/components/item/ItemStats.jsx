@@ -1,6 +1,6 @@
 function ItemInfo({ item }) {
   return (
-    <section className="item-info">
+    <section className="item-info w-32 mx-auto">
       <table>
         <tbody>
           <tr>

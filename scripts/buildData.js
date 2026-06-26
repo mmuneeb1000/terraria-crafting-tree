@@ -77,9 +77,16 @@ for (const [id, item] of Object.entries(raw)) {
       ingredients: (recipe.ings ?? []).map((ingredient) => {
         const cleaned = cleanIngredient(ingredient);
 
+        if (Array.isArray(cleaned)) {
+          return cleaned.map((ing) => ({
+            item: toSlug(ing.item),
+            amount: ing.amount,
+          }));
+        }
+
         return {
-          ...cleaned,
           item: toSlug(cleaned.item),
+          amount: cleaned.amount,
         };
       }),
     }));

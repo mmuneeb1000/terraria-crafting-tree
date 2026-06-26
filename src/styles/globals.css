@@ -1,1 +1,25 @@
 @import "tailwindcss";
+@import "./typography.css";
+@import "./utilities.css";
+@import "./variables.css";
+
+@theme {
+  --color-background: #f8f3e6;
+  --color-surface: #fffdf8;
+  --color-surface-alt: #f0e6d2;
+
+  --color-primary: #4f8f3d;
+  --color-primary-hover: #3e7430;
+
+  --color-secondary: #8b6b3f;
+  --color-accent: #d8b44a;
+
+  --color-text: #2f2b24;
+  --color-text-muted: #6b665c;
+
+  --color-border: #cdbb98;
+
+  --color-success: #63a75c;
+  --color-warning: #d99b3d;
+  --color-danger: #c95d4a;
+}

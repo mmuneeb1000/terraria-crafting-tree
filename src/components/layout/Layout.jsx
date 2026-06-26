@@ -6,10 +6,9 @@ import Footer from "./Footer";
 function Layout() {
   return (
     <>
-      <div className="min-h-screen  flex flex-col items-center justify-center">
+      <div className="bg-background min-h-screen  mx-auto flex flex-col items-center justify-center">
         <Header />
-        <main className="flex-1 container mx-auto p-4">
-          <h1>This is Terraria Crafting Tree</h1>
+        <main className="bg-surface flex-1 container mx-auto w-3/4 p-4">
           <Outlet />
         </main>
         <Footer />

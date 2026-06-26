@@ -22,7 +22,7 @@ function Search() {
 
   return (
     <div className="p-4">
-      <h1>Search</h1>
+      <h1 className="text-center">Search</h1>
 
       <input
         value={query}
@@ -31,7 +31,7 @@ function Search() {
         className="border p-2 w-full mb-4"
       />
 
-      <div className="grid grid-cols-4 gap-3">
+      <div className="flex flex-wrap gap-2">
         {results.map((item) => (
           <Link
             key={item.id}

@@ -11,12 +11,17 @@ function ItemList() {
 
   return (
     <div>
-      <h1>Items</h1>
+      <h1 className="text-center mb-8 pb-8 border-b">Items</h1>
 
-      <div className="grid grid-cols-4 gap-3">
+      <div className="flex flex-wrap gap-2">
         {sortedItems.map((item) => (
-          <div key={item.id}>
-            <Link to={`/item/${item.id}`}>{item.name}</Link>
+          <div className="p-2" key={item.id}>
+            <Link
+              to={`/item/${item.id}`}
+              className="border p-2  hover:bg-gray-100"
+            >
+              {item.name}
+            </Link>
           </div>
         ))}
       </div>

@@ -452,16 +452,16 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Amber Squirrel",
+        [
+          {
+            "item": "amber-squirrel",
             "amount": 1
           },
-          "1": {
-            "item": "Amber Bunny",
+          {
+            "item": "amber-bunny",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -530,20 +530,20 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Amethyst Bunny",
+        [
+          {
+            "item": "amethyst-bunny",
             "amount": 1
           },
-          "1": {
-            "item": "Amethyst Squirrel",
+          {
+            "item": "amethyst-squirrel",
             "amount": 1
           },
-          "2": {
-            "item": "Topaz",
+          {
+            "item": "topaz",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -1492,16 +1492,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Ash Wood Wall",
+        [
+          {
+            "item": "ash-wood-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Ash Wood Fence",
+          {
+            "item": "ash-wood-fence",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -1668,24 +1668,24 @@
           "item": "soul-of-sight",
           "amount": 5
         },
-        {
-          "0": {
-            "item": "Summoner Emblem",
+        [
+          {
+            "item": "summoner-emblem",
             "amount": 1
           },
-          "1": {
-            "item": "Sorcerer Emblem",
+          {
+            "item": "sorcerer-emblem",
             "amount": 1
           },
-          "2": {
-            "item": "Ranger Emblem",
+          {
+            "item": "ranger-emblem",
             "amount": 1
           },
-          "3": {
-            "item": "Warrior Emblem",
+          {
+            "item": "warrior-emblem",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -1694,16 +1694,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Copper Axe",
+        [
+          {
+            "item": "copper-axe",
             "amount": 1
           },
-          "1": {
-            "item": "Tin Axe",
+          {
+            "item": "tin-axe",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "jungle-spores",
           "amount": 12
@@ -1780,16 +1780,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Bamboo Fence",
+        [
+          {
+            "item": "bamboo-fence",
             "amount": 4
           },
-          "1": {
-            "item": "Bamboo Wall",
+          {
+            "item": "bamboo-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -2358,16 +2358,16 @@
           "item": "deathweed",
           "amount": 1
         },
-        {
-          "0": {
-            "item": "Vertebra",
+        [
+          {
+            "item": "vertebra",
             "amount": 1
           },
-          "1": {
-            "item": "Rotten Chunk",
+          {
+            "item": "rotten-chunk",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -4198,16 +4198,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Boreal Wood Fence",
+        [
+          {
+            "item": "boreal-wood-fence",
             "amount": 4
           },
-          "1": {
-            "item": "Boreal Wood Wall",
+          {
+            "item": "boreal-wood-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -7578,16 +7578,16 @@
       "station": "Work Bench and Ecto Mist",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Crimtane Bar",
+        [
+          {
+            "item": "crimtane-bar",
             "amount": 3
           },
-          "1": {
-            "item": "Demonite Bar",
+          {
+            "item": "demonite-bar",
             "amount": 3
           }
-        },
+        ],
         {
           "item": "torch",
           "amount": 1
@@ -7900,16 +7900,16 @@
       "station": "Tinkerer's Workshop",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Magic Mirror",
+        [
+          {
+            "item": "magic-mirror",
             "amount": 1
           },
-          "1": {
-            "item": "Ice Mirror",
+          {
+            "item": "ice-mirror",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "pda",
           "amount": 1
@@ -10628,16 +10628,16 @@
       "station": "By Hand",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Copper Coin",
+        [
+          {
+            "item": "copper-coin",
             "amount": 100
           },
-          "1": {
-            "item": "Gold Coin",
+          {
+            "item": "gold-coin",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -10646,16 +10646,16 @@
       "station": "By Hand",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Silver Coin",
+        [
+          {
+            "item": "silver-coin",
             "amount": 100
           },
-          "1": {
-            "item": "Platinum Coin",
+          {
+            "item": "platinum-coin",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -11354,28 +11354,28 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Crimson Blister Wall",
+        [
+          {
+            "item": "crimson-blister-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Crimson Teeth Wall",
+          {
+            "item": "crimson-teeth-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Crimson Scab Wall",
+          {
+            "item": "crimson-scab-wall",
             "amount": 4
           },
-          "3": {
-            "item": "Crimson Crust Wall",
+          {
+            "item": "crimson-crust-wall",
             "amount": 4
           },
-          "4": {
-            "item": "Crimstone Wall",
+          {
+            "item": "crimstone-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -11890,16 +11890,16 @@
       "station": "Demon Altar",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Crimtane Ore",
+        [
+          {
+            "item": "crimtane-ore",
             "amount": 5
           },
-          "1": {
-            "item": "Demonite Ore",
+          {
+            "item": "demonite-ore",
             "amount": 5
           }
-        },
+        ],
         {
           "item": "flinx-fur",
           "amount": 3
@@ -12040,16 +12040,16 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Diamond Bunny",
+        [
+          {
+            "item": "diamond-bunny",
             "amount": 1
           },
-          "1": {
-            "item": "Diamond Squirrel",
+          {
+            "item": "diamond-squirrel",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -12100,40 +12100,40 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Layered Dirt Wall",
+        [
+          {
+            "item": "layered-dirt-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Rough Dirt Wall",
+          {
+            "item": "rough-dirt-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Cave Dirt Wall",
+          {
+            "item": "cave-dirt-wall",
             "amount": 4
           },
-          "3": {
-            "item": "Crumbling Dirt Wall",
+          {
+            "item": "crumbling-dirt-wall",
             "amount": 4
           },
-          "4": {
-            "item": "Rocky Dirt Wall",
+          {
+            "item": "rocky-dirt-wall",
             "amount": 4
           },
-          "5": {
-            "item": "Dirt Wall",
+          {
+            "item": "dirt-wall",
             "amount": 4
           },
-          "6": {
-            "item": "Cracked Dirt Wall",
+          {
+            "item": "cracked-dirt-wall",
             "amount": 4
           },
-          "7": {
-            "item": "Wavy Dirt Wall",
+          {
+            "item": "wavy-dirt-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -13622,20 +13622,20 @@
       "station": "Heavy Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Blue Slab Wall",
+        [
+          {
+            "item": "blue-slab-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Blue Tiled Wall",
+          {
+            "item": "blue-tiled-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Blue Brick Wall",
+          {
+            "item": "blue-brick-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -13664,20 +13664,20 @@
       "station": "Heavy Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Green Brick Wall",
+        [
+          {
+            "item": "green-brick-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Green Tiled Wall",
+          {
+            "item": "green-tiled-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Green Slab Wall",
+          {
+            "item": "green-slab-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -13706,20 +13706,20 @@
       "station": "Heavy Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Pink Tiled Wall",
+        [
+          {
+            "item": "pink-tiled-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Pink Slab Wall",
+          {
+            "item": "pink-slab-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Pink Brick Wall",
+          {
+            "item": "pink-brick-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -14894,16 +14894,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "White Dynasty Wall",
+        [
+          {
+            "item": "white-dynasty-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Blue Dynasty Wall",
+          {
+            "item": "blue-dynasty-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -14912,28 +14912,28 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Ebonstone Wall",
+        [
+          {
+            "item": "ebonstone-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Corrupt Growth Wall",
+          {
+            "item": "corrupt-growth-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Corrupt Mass Wall",
+          {
+            "item": "corrupt-mass-wall",
             "amount": 4
           },
-          "3": {
-            "item": "Corrupt Pustule Wall",
+          {
+            "item": "corrupt-pustule-wall",
             "amount": 4
           },
-          "4": {
-            "item": "Corrupt Tendril Wall",
+          {
+            "item": "corrupt-tendril-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -14998,16 +14998,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Ebonwood Wall",
+        [
+          {
+            "item": "ebonwood-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Ebonwood Fence",
+          {
+            "item": "ebonwood-fence",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -15166,20 +15166,20 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Emerald Bunny",
+        [
+          {
+            "item": "emerald-bunny",
             "amount": 1
           },
-          "1": {
-            "item": "Emerald Squirrel",
+          {
+            "item": "emerald-squirrel",
             "amount": 1
           },
-          "2": {
-            "item": "Ruby",
+          {
+            "item": "ruby",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -16000,20 +16000,20 @@
       "station": "Cooking Pot",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Trout",
+        [
+          {
+            "item": "trout",
             "amount": 1
           },
-          "1": {
-            "item": "Bass",
+          {
+            "item": "bass",
             "amount": 1
           },
-          "2": {
-            "item": "Atlantic Cod",
+          {
+            "item": "atlantic-cod",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -16034,24 +16034,24 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Salmon",
+        [
+          {
+            "item": "salmon",
             "amount": 1
           },
-          "1": {
-            "item": "Red Snapper",
+          {
+            "item": "red-snapper",
             "amount": 1
           },
-          "2": {
-            "item": "Flounder",
+          {
+            "item": "flounder",
             "amount": 1
           },
-          "3": {
-            "item": "Tuna",
+          {
+            "item": "tuna",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -16060,76 +16060,76 @@
       "station": "Cooking Pot",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Crimson Tigerfish",
+        [
+          {
+            "item": "crimson-tigerfish",
             "amount": 2
           },
-          "1": {
-            "item": "Chaos Fish",
+          {
+            "item": "chaos-fish",
             "amount": 2
           },
-          "2": {
-            "item": "Armored Cavefish",
+          {
+            "item": "armored-cavefish",
             "amount": 2
           },
-          "3": {
-            "item": "Double Cod",
+          {
+            "item": "double-cod",
             "amount": 2
           },
-          "4": {
-            "item": "Damselfish",
+          {
+            "item": "damselfish",
             "amount": 2
           },
-          "5": {
-            "item": "Variegated Lardfish",
+          {
+            "item": "variegated-lardfish",
             "amount": 2
           },
-          "6": {
-            "item": "Stinkfish",
+          {
+            "item": "stinkfish",
             "amount": 2
           },
-          "7": {
-            "item": "Specular Fish",
+          {
+            "item": "specular-fish",
             "amount": 2
           },
-          "8": {
-            "item": "Prismite",
+          {
+            "item": "prismite",
             "amount": 2
           },
-          "9": {
-            "item": "Princess Fish",
+          {
+            "item": "princess-fish",
             "amount": 2
           },
-          "10": {
-            "item": "Obsidifish",
+          {
+            "item": "obsidifish",
             "amount": 2
           },
-          "11": {
-            "item": "Neon Tetra",
+          {
+            "item": "neon-tetra",
             "amount": 2
           },
-          "12": {
-            "item": "Honeyfin",
+          {
+            "item": "honeyfin",
             "amount": 2
           },
-          "13": {
-            "item": "Hemopiranha",
+          {
+            "item": "hemopiranha",
             "amount": 2
           },
-          "14": {
-            "item": "Frost Minnow",
+          {
+            "item": "frost-minnow",
             "amount": 2
           },
-          "15": {
-            "item": "Flarefin Koi",
+          {
+            "item": "flarefin-koi",
             "amount": 2
           },
-          "16": {
-            "item": "Ebonkoi",
+          {
+            "item": "ebonkoi",
             "amount": 2
           }
-        }
+        ]
       ]
     }
   ],
@@ -16370,16 +16370,16 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Flare",
+        [
+          {
+            "item": "flare",
             "amount": 1
           },
-          "1": {
-            "item": "Blue Flare",
+          {
+            "item": "blue-flare",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -16596,16 +16596,16 @@
           "item": "flinx-fur",
           "amount": 8
         },
-        {
-          "0": {
-            "item": "Gold Bar",
+        [
+          {
+            "item": "gold-bar",
             "amount": 8
           },
-          "1": {
-            "item": "Platinum Bar",
+          {
+            "item": "platinum-bar",
             "amount": 8
           }
-        },
+        ],
         {
           "item": "silk",
           "amount": 10
@@ -16622,16 +16622,16 @@
           "item": "flinx-fur",
           "amount": 6
         },
-        {
-          "0": {
-            "item": "Gold Bar",
+        [
+          {
+            "item": "gold-bar",
             "amount": 10
           },
-          "1": {
-            "item": "Platinum Bar",
+          {
+            "item": "platinum-bar",
             "amount": 10
           }
-        }
+        ]
       ]
     }
   ],
@@ -16724,20 +16724,20 @@
       "station": "Honey",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Platinum Broadsword",
+        [
+          {
+            "item": "platinum-broadsword",
             "amount": 1
           },
-          "1": {
-            "item": "Gold Broadsword",
+          {
+            "item": "gold-broadsword",
             "amount": 1
           },
-          "2": {
-            "item": "Gold Broadsword",
+          {
+            "item": "gold-broadsword",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "stinkbug",
           "amount": 5
@@ -16750,16 +16750,16 @@
       "station": "Mythril Anvil",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Titanium Bar",
+        [
+          {
+            "item": "titanium-bar",
             "amount": 46
           },
-          "1": {
-            "item": "Adamantite Bar",
+          {
+            "item": "adamantite-bar",
             "amount": 46
           }
-        },
+        ],
         {
           "item": "forbidden-fragment",
           "amount": 3
@@ -16776,16 +16776,16 @@
           "item": "forbidden-fragment",
           "amount": 1
         },
-        {
-          "0": {
-            "item": "Titanium Bar",
+        [
+          {
+            "item": "titanium-bar",
             "amount": 10
           },
-          "1": {
-            "item": "Adamantite Bar",
+          {
+            "item": "adamantite-bar",
             "amount": 10
           }
-        }
+        ]
       ]
     }
   ],
@@ -16798,16 +16798,16 @@
           "item": "forbidden-fragment",
           "amount": 1
         },
-        {
-          "0": {
-            "item": "Titanium Bar",
+        [
+          {
+            "item": "titanium-bar",
             "amount": 20
           },
-          "1": {
-            "item": "Adamantite Bar",
+          {
+            "item": "adamantite-bar",
             "amount": 20
           }
-        }
+        ]
       ]
     }
   ],
@@ -16816,16 +16816,16 @@
       "station": "Mythril Anvil",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Adamantite Bar",
+        [
+          {
+            "item": "adamantite-bar",
             "amount": 16
           },
-          "1": {
-            "item": "Titanium Bar",
+          {
+            "item": "titanium-bar",
             "amount": 16
           }
-        },
+        ],
         {
           "item": "forbidden-fragment",
           "amount": 1
@@ -16976,16 +16976,16 @@
       "station": "Mythril Anvil",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Titanium Bar",
+        [
+          {
+            "item": "titanium-bar",
             "amount": 46
           },
-          "1": {
-            "item": "Adamantite Bar",
+          {
+            "item": "adamantite-bar",
             "amount": 46
           }
-        },
+        ],
         {
           "item": "frost-core",
           "amount": 3
@@ -16998,16 +16998,16 @@
       "station": "Mythril Anvil",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Adamantite Bar",
+        [
+          {
+            "item": "adamantite-bar",
             "amount": 10
           },
-          "1": {
-            "item": "Titanium Bar",
+          {
+            "item": "titanium-bar",
             "amount": 10
           }
-        },
+        ],
         {
           "item": "frost-core",
           "amount": 1
@@ -17024,16 +17024,16 @@
           "item": "frost-core",
           "amount": 1
         },
-        {
-          "0": {
-            "item": "Titanium Bar",
+        [
+          {
+            "item": "titanium-bar",
             "amount": 20
           },
-          "1": {
-            "item": "Adamantite Bar",
+          {
+            "item": "adamantite-bar",
             "amount": 20
           }
-        }
+        ]
       ]
     }
   ],
@@ -17042,16 +17042,16 @@
       "station": "Mythril Anvil",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Adamantite Bar",
+        [
+          {
+            "item": "adamantite-bar",
             "amount": 16
           },
-          "1": {
-            "item": "Titanium Bar",
+          {
+            "item": "titanium-bar",
             "amount": 16
           }
-        },
+        ],
         {
           "item": "frost-core",
           "amount": 1
@@ -17276,16 +17276,16 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Used Gas Trap",
+        [
+          {
+            "item": "used-gas-trap",
             "amount": 1
           },
-          "1": {
-            "item": "Whoopie Cushion",
+          {
+            "item": "whoopie-cushion",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -17518,20 +17518,20 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Amethyst Gemspark Wall",
+        [
+          {
+            "item": "amethyst-gemspark-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Offline Amethyst Gemspark Wall",
+          {
+            "item": "offline-amethyst-gemspark-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Amethyst",
+          {
+            "item": "amethyst",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -17540,20 +17540,20 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Offline Topaz Gemspark Wall",
+        [
+          {
+            "item": "offline-topaz-gemspark-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Topaz Gemspark Wall",
+          {
+            "item": "topaz-gemspark-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Glass",
+          {
+            "item": "glass",
             "amount": 20
           }
-        }
+        ]
       ]
     }
   ],
@@ -17562,20 +17562,20 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Sapphire Gemspark Wall",
+        [
+          {
+            "item": "sapphire-gemspark-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Glass",
+          {
+            "item": "glass",
             "amount": 20
           },
-          "2": {
-            "item": "Offline Sapphire Gemspark Wall",
+          {
+            "item": "offline-sapphire-gemspark-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -18142,16 +18142,16 @@
       "station": "By Hand",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Gentleman's Long Beard",
+        [
+          {
+            "item": "gentlemans-long-beard",
             "amount": 1
           },
-          "1": {
-            "item": "Gentleman's Magnificent Beard",
+          {
+            "item": "gentlemans-magnificent-beard",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -18684,60 +18684,60 @@
       "station": "Cooking Pot",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Gold Mouse",
+        [
+          {
+            "item": "gold-mouse",
             "amount": 1
           },
-          "1": {
-            "item": "Gold Water Strider",
+          {
+            "item": "gold-water-strider",
             "amount": 1
           },
-          "2": {
-            "item": "Gold Seahorse",
+          {
+            "item": "gold-seahorse",
             "amount": 1
           },
-          "3": {
-            "item": "Gold Ladybug",
+          {
+            "item": "gold-ladybug",
             "amount": 1
           },
-          "4": {
-            "item": "Gold Dragonfly",
+          {
+            "item": "gold-dragonfly",
             "amount": 1
           },
-          "5": {
-            "item": "Gold Goldfish",
+          {
+            "item": "gold-goldfish",
             "amount": 1
           },
-          "6": {
-            "item": "Gold Butterfly",
+          {
+            "item": "gold-butterfly",
             "amount": 1
           },
-          "7": {
-            "item": "Gold Worm",
+          {
+            "item": "gold-worm",
             "amount": 1
           },
-          "8": {
-            "item": "Gold Grasshopper",
+          {
+            "item": "gold-grasshopper",
             "amount": 1
           },
-          "9": {
-            "item": "Gold Squirrel",
+          {
+            "item": "gold-squirrel",
             "amount": 1
           },
-          "10": {
-            "item": "Gold Frog",
+          {
+            "item": "gold-frog",
             "amount": 1
           },
-          "11": {
-            "item": "Gold Bunny",
+          {
+            "item": "gold-bunny",
             "amount": 1
           },
-          "12": {
-            "item": "Gold Bird",
+          {
+            "item": "gold-bird",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -18998,16 +18998,16 @@
           "item": "depth-meter",
           "amount": 1
         },
-        {
-          "0": {
-            "item": "Platinum Watch",
+        [
+          {
+            "item": "platinum-watch",
             "amount": 1
           },
-          "1": {
-            "item": "Gold Watch",
+          {
+            "item": "gold-watch",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -19854,16 +19854,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Lichen Stone Wall",
+        [
+          {
+            "item": "lichen-stone-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Ivy Stone Wall",
+          {
+            "item": "ivy-stone-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -20024,16 +20024,16 @@
       "station": "Cooking Pot",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Red Squirrel",
+        [
+          {
+            "item": "red-squirrel",
             "amount": 1
           },
-          "1": {
-            "item": "Squirrel",
+          {
+            "item": "squirrel",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -20438,20 +20438,20 @@
       "station": "Chlorophyte Extractinator",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Hardened Pearlsand Block",
+        [
+          {
+            "item": "hardened-pearlsand-block",
             "amount": 1
           },
-          "1": {
-            "item": "Hardened Crimsand Block",
+          {
+            "item": "hardened-crimsand-block",
             "amount": 1
           },
-          "2": {
-            "item": "Hardened Ebonsand Block",
+          {
+            "item": "hardened-ebonsand-block",
             "amount": 1
           }
-        }
+        ]
       ]
     },
     {
@@ -20844,24 +20844,24 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Ember Wall",
+        [
+          {
+            "item": "ember-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Cinder Wall",
+          {
+            "item": "cinder-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Magma Wall",
+          {
+            "item": "magma-wall",
             "amount": 4
           },
-          "3": {
-            "item": "Smouldering Stone Wall",
+          {
+            "item": "smouldering-stone-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -21028,16 +21028,16 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Honey Block",
+        [
+          {
+            "item": "honey-block",
             "amount": 1
           },
-          "1": {
-            "item": "Crispy Honey Block",
+          {
+            "item": "crispy-honey-block",
             "amount": 1
           }
-        }
+        ]
       ]
     },
     {
@@ -21340,20 +21340,20 @@
       "station": "Chlorophyte Extractinator",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Red Ice Block",
+        [
+          {
+            "item": "red-ice-block",
             "amount": 1
           },
-          "1": {
-            "item": "Purple Ice Block",
+          {
+            "item": "purple-ice-block",
             "amount": 1
           },
-          "2": {
-            "item": "Pink Ice Block",
+          {
+            "item": "pink-ice-block",
             "amount": 1
           }
-        }
+        ]
       ]
     },
     {
@@ -21372,16 +21372,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Ice Brick Wall",
+        [
+          {
+            "item": "ice-brick-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Ice Block",
+          {
+            "item": "ice-block",
             "amount": 2
           }
-        }
+        ]
       ]
     }
   ],
@@ -21828,16 +21828,16 @@
           "item": "daybloom",
           "amount": 1
         },
-        {
-          "0": {
-            "item": "Iron Ore",
+        [
+          {
+            "item": "iron-ore",
             "amount": 1
           },
-          "1": {
-            "item": "Lead Ore",
+          {
+            "item": "lead-ore",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -22070,16 +22070,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Jungle Vine Wall",
+        [
+          {
+            "item": "jungle-vine-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Leafy Jungle Wall",
+          {
+            "item": "leafy-jungle-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -24558,20 +24558,20 @@
       "station": "By Hand",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Wet Bomb",
+        [
+          {
+            "item": "wet-bomb",
             "amount": 1
           },
-          "1": {
-            "item": "Lava Bomb",
+          {
+            "item": "lava-bomb",
             "amount": 1
           },
-          "2": {
-            "item": "Honey Bomb",
+          {
+            "item": "honey-bomb",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -24616,20 +24616,20 @@
       "station": "By Hand",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Honey Rocket",
+        [
+          {
+            "item": "honey-rocket",
             "amount": 1
           },
-          "1": {
-            "item": "Lava Rocket",
+          {
+            "item": "lava-rocket",
             "amount": 1
           },
-          "2": {
-            "item": "Wet Rocket",
+          {
+            "item": "wet-rocket",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -25274,16 +25274,16 @@
           "item": "glass",
           "amount": 10
         },
-        {
-          "0": {
-            "item": "Gold Bar",
+        [
+          {
+            "item": "gold-bar",
             "amount": 8
           },
-          "1": {
-            "item": "Platinum Bar",
+          {
+            "item": "platinum-bar",
             "amount": 8
           }
-        }
+        ]
       ]
     }
   ],
@@ -25340,16 +25340,16 @@
       "station": "Iron Anvil",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Crimtane Bar",
+        [
+          {
+            "item": "crimtane-bar",
             "amount": 12
           },
-          "1": {
-            "item": "Demonite Bar",
+          {
+            "item": "demonite-bar",
             "amount": 12
           }
-        },
+        ],
         {
           "item": "topaz",
           "amount": 5
@@ -25762,16 +25762,16 @@
           "item": "any-iron-bar",
           "amount": 5
         },
-        {
-          "0": {
-            "item": "Rotten Chunk",
+        [
+          {
+            "item": "rotten-chunk",
             "amount": 6
           },
-          "1": {
-            "item": "Vertebra",
+          {
+            "item": "vertebra",
             "amount": 6
           }
-        },
+        ],
         {
           "item": "soul-of-night",
           "amount": 6
@@ -26252,16 +26252,16 @@
           "item": "any-wood",
           "amount": 10
         },
-        {
-          "0": {
-            "item": "Rotten Chunk",
+        [
+          {
+            "item": "rotten-chunk",
             "amount": 10
           },
-          "1": {
-            "item": "Vertebra",
+          {
+            "item": "vertebra",
             "amount": 10
           }
-        }
+        ]
       ]
     }
   ],
@@ -26518,16 +26518,16 @@
       "station": "Tinkerer's Workshop",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Lava Charm",
+        [
+          {
+            "item": "lava-charm",
             "amount": 1
           },
-          "1": {
-            "item": "Magma Skull",
+          {
+            "item": "magma-skull",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "obsidian-skull-rose",
           "amount": 1
@@ -26612,16 +26612,16 @@
       "station": "Cooking Pot",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Vertebra",
+        [
+          {
+            "item": "vertebra",
             "amount": 8
           },
-          "1": {
-            "item": "Rotten Chunk",
+          {
+            "item": "rotten-chunk",
             "amount": 8
           }
-        }
+        ]
       ]
     }
   ],
@@ -26706,28 +26706,28 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Lava Moss",
+        [
+          {
+            "item": "lava-moss",
             "amount": 1
           },
-          "1": {
-            "item": "Krypton Moss",
+          {
+            "item": "krypton-moss",
             "amount": 1
           },
-          "2": {
-            "item": "Argon Moss",
+          {
+            "item": "argon-moss",
             "amount": 1
           },
-          "3": {
-            "item": "Xenon Moss",
+          {
+            "item": "xenon-moss",
             "amount": 1
           },
-          "4": {
-            "item": "Neon Moss",
+          {
+            "item": "neon-moss",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -27742,16 +27742,16 @@
           "item": "blade-of-grass",
           "amount": 1
         },
-        {
-          "0": {
-            "item": "Blood Butcherer",
+        [
+          {
+            "item": "blood-butcherer",
             "amount": 1
           },
-          "1": {
-            "item": "Light's Bane",
+          {
+            "item": "lights-bane",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "muramasa",
           "amount": 1
@@ -27816,16 +27816,16 @@
           "item": "silk",
           "amount": 30
         },
-        {
-          "0": {
-            "item": "Shadow Scale",
+        [
+          {
+            "item": "shadow-scale",
             "amount": 20
           },
-          "1": {
-            "item": "Tissue Sample",
+          {
+            "item": "tissue-sample",
             "amount": 20
           }
-        }
+        ]
       ]
     }
   ],
@@ -27838,16 +27838,16 @@
           "item": "obsidian",
           "amount": 20
         },
-        {
-          "0": {
-            "item": "Shadow Scale",
+        [
+          {
+            "item": "shadow-scale",
             "amount": 5
           },
-          "1": {
-            "item": "Tissue Sample",
+          {
+            "item": "tissue-sample",
             "amount": 5
           }
-        },
+        ],
         {
           "item": "silk",
           "amount": 10
@@ -27868,16 +27868,16 @@
           "item": "silk",
           "amount": 10
         },
-        {
-          "0": {
-            "item": "Tissue Sample",
+        [
+          {
+            "item": "tissue-sample",
             "amount": 10
           },
-          "1": {
-            "item": "Shadow Scale",
+          {
+            "item": "shadow-scale",
             "amount": 10
           }
-        }
+        ]
       ]
     }
   ],
@@ -27894,16 +27894,16 @@
           "item": "silk",
           "amount": 10
         },
-        {
-          "0": {
-            "item": "Tissue Sample",
+        [
+          {
+            "item": "tissue-sample",
             "amount": 5
           },
-          "1": {
-            "item": "Shadow Scale",
+          {
+            "item": "shadow-scale",
             "amount": 5
           }
-        }
+        ]
       ]
     }
   ],
@@ -28812,16 +28812,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Palm Wood Wall",
+        [
+          {
+            "item": "palm-wood-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Palm Wood Fence",
+          {
+            "item": "palm-wood-fence",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -29002,16 +29002,16 @@
           "item": "pink-torch",
           "amount": 1
         },
-        {
-          "0": {
-            "item": "Platinum Bar",
+        [
+          {
+            "item": "platinum-bar",
             "amount": 2
           },
-          "1": {
-            "item": "Gold Bar",
+          {
+            "item": "gold-bar",
             "amount": 2
           }
-        }
+        ]
       ]
     }
   ],
@@ -29036,28 +29036,28 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Hallowed Crystalline Wall",
+        [
+          {
+            "item": "hallowed-crystalline-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Pearlstone Wall",
+          {
+            "item": "pearlstone-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Hallowed Prism Wall",
+          {
+            "item": "hallowed-prism-wall",
             "amount": 4
           },
-          "3": {
-            "item": "Hallowed Cavern Wall",
+          {
+            "item": "hallowed-cavern-wall",
             "amount": 4
           },
-          "4": {
-            "item": "Hallowed Shard Wall",
+          {
+            "item": "hallowed-shard-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -29122,16 +29122,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Pearlwood Wall",
+        [
+          {
+            "item": "pearlwood-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Pearlwood Fence",
+          {
+            "item": "pearlwood-fence",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -31426,16 +31426,16 @@
           "item": "throwing-knife",
           "amount": 50
         },
-        {
-          "0": {
-            "item": "Vile Powder",
+        [
+          {
+            "item": "vile-powder",
             "amount": 1
           },
-          "1": {
-            "item": "Vicious Powder",
+          {
+            "item": "vicious-powder",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -32252,16 +32252,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Rich Mahogany Wall",
+        [
+          {
+            "item": "rich-mahogany-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Rich Mahogany Fence",
+          {
+            "item": "rich-mahogany-fence",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -32382,28 +32382,28 @@
       "station": "Cooking Pot",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Penguin",
+        [
+          {
+            "item": "penguin",
             "amount": 1
           },
-          "1": {
-            "item": "Blue Jay",
+          {
+            "item": "blue-jay",
             "amount": 1
           },
-          "2": {
-            "item": "Cardinal",
+          {
+            "item": "cardinal",
             "amount": 1
           },
-          "3": {
-            "item": "Bird",
+          {
+            "item": "bird",
             "amount": 1
           },
-          "4": {
-            "item": "Seagull",
+          {
+            "item": "seagull",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -32412,20 +32412,20 @@
       "station": "Cooking Pot",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Grebe",
+        [
+          {
+            "item": "grebe",
             "amount": 1
           },
-          "1": {
-            "item": "Mallard Duck",
+          {
+            "item": "mallard-duck",
             "amount": 1
           },
-          "2": {
-            "item": "Duck",
+          {
+            "item": "duck",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -32542,20 +32542,20 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Ruby Squirrel",
+        [
+          {
+            "item": "ruby-squirrel",
             "amount": 1
           },
-          "1": {
-            "item": "Ruby Bunny",
+          {
+            "item": "ruby-bunny",
             "amount": 1
           },
-          "2": {
-            "item": "Diamond",
+          {
+            "item": "diamond",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -32612,36 +32612,36 @@
       "station": "Chlorophyte Extractinator",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Ebonsand Block",
+        [
+          {
+            "item": "ebonsand-block",
             "amount": 1
           },
-          "1": {
-            "item": "Crimsand Block",
+          {
+            "item": "crimsand-block",
             "amount": 1
           },
-          "2": {
-            "item": "Pearlsand Block",
+          {
+            "item": "pearlsand-block",
             "amount": 1
           }
-        }
+        ]
       ]
     },
     {
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Hardened Sand Block",
+        [
+          {
+            "item": "hardened-sand-block",
             "amount": 1
           },
-          "1": {
-            "item": "Sandstone Block",
+          {
+            "item": "sandstone-block",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -32650,16 +32650,16 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Hardened Ebonsand Block",
+        [
+          {
+            "item": "hardened-ebonsand-block",
             "amount": 1
           },
-          "1": {
-            "item": "Ebonsandstone Block",
+          {
+            "item": "ebonsandstone-block",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -32668,16 +32668,16 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Hardened Pearlsand Block",
+        [
+          {
+            "item": "hardened-pearlsand-block",
             "amount": 1
           },
-          "1": {
-            "item": "Pearlsandstone Block",
+          {
+            "item": "pearlsandstone-block",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -32686,16 +32686,16 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Crimsandstone Block",
+        [
+          {
+            "item": "crimsandstone-block",
             "amount": 1
           },
-          "1": {
-            "item": "Hardened Crimsand Block",
+          {
+            "item": "hardened-crimsand-block",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -32762,20 +32762,20 @@
       "station": "Chlorophyte Extractinator",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Pearlsandstone Block",
+        [
+          {
+            "item": "pearlsandstone-block",
             "amount": 1
           },
-          "1": {
-            "item": "Crimsandstone Block",
+          {
+            "item": "crimsandstone-block",
             "amount": 1
           },
-          "2": {
-            "item": "Ebonsandstone Block",
+          {
+            "item": "ebonsandstone-block",
             "amount": 1
           }
-        }
+        ]
       ]
     },
     {
@@ -33008,20 +33008,20 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Emerald",
+        [
+          {
+            "item": "emerald",
             "amount": 1
           },
-          "1": {
-            "item": "Sapphire Bunny",
+          {
+            "item": "sapphire-bunny",
             "amount": 1
           },
-          "2": {
-            "item": "Sapphire Squirrel",
+          {
+            "item": "sapphire-squirrel",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -33280,16 +33280,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Shadewood Fence",
+        [
+          {
+            "item": "shadewood-fence",
             "amount": 4
           },
-          "1": {
-            "item": "Shadewood Wall",
+          {
+            "item": "shadewood-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -33516,32 +33516,32 @@
       "station": "Heavy Work Bench",
       "amount": 4,
       "ingredients": [
-        {
-          "0": {
-            "item": "Coral",
+        [
+          {
+            "item": "coral",
             "amount": 1
           },
-          "1": {
-            "item": "Starfish",
+          {
+            "item": "starfish",
             "amount": 1
           },
-          "2": {
-            "item": "Tulip Shell",
+          {
+            "item": "tulip-shell",
             "amount": 1
           },
-          "3": {
-            "item": "Lightning Whelk Shell",
+          {
+            "item": "lightning-whelk-shell",
             "amount": 1
           },
-          "4": {
-            "item": "Junonia Shell",
+          {
+            "item": "junonia-shell",
             "amount": 1
           },
-          "5": {
-            "item": "Seashell",
+          {
+            "item": "seashell",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -33586,16 +33586,16 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Wooden Arrow",
+        [
+          {
+            "item": "wooden-arrow",
             "amount": 1
           },
-          "1": {
-            "item": "Hellfire Arrow",
+          {
+            "item": "hellfire-arrow",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -34950,16 +34950,16 @@
           "item": "gel",
           "amount": 20
         },
-        {
-          "0": {
-            "item": "Gold Crown",
+        [
+          {
+            "item": "gold-crown",
             "amount": 1
           },
-          "1": {
-            "item": "Platinum Crown",
+          {
+            "item": "platinum-crown",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -34978,16 +34978,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Granite Block",
+        [
+          {
+            "item": "granite-block",
             "amount": 1
           },
-          "1": {
-            "item": "Smooth Granite Wall",
+          {
+            "item": "smooth-granite-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -35018,16 +35018,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Marble Block",
+        [
+          {
+            "item": "marble-block",
             "amount": 1
           },
-          "1": {
-            "item": "Smooth Marble Wall",
+          {
+            "item": "smooth-marble-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -35170,16 +35170,16 @@
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Snow Block",
+        [
+          {
+            "item": "snow-block",
             "amount": 2
           },
-          "1": {
-            "item": "Snow Brick Wall",
+          {
+            "item": "snow-brick-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -36190,24 +36190,24 @@
       "station": "Tinkerer's Workshop",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Hermes Boots",
+        [
+          {
+            "item": "hermes-boots",
             "amount": 1
           },
-          "1": {
-            "item": "Dunerider Boots",
+          {
+            "item": "dunerider-boots",
             "amount": 1
           },
-          "2": {
-            "item": "Sailfish Boots",
+          {
+            "item": "sailfish-boots",
             "amount": 1
           },
-          "3": {
-            "item": "Flurry Boots",
+          {
+            "item": "flurry-boots",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "rocket-boots",
           "amount": 1
@@ -36288,16 +36288,16 @@
           "item": "bottled-water",
           "amount": 1
         },
-        {
-          "0": {
-            "item": "Gold Ore",
+        [
+          {
+            "item": "gold-ore",
             "amount": 1
           },
-          "1": {
-            "item": "Platinum Ore",
+          {
+            "item": "platinum-ore",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "moonglow",
           "amount": 1
@@ -37960,72 +37960,72 @@
       "station": "Chlorophyte Extractinator",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Ebonstone Block",
+        [
+          {
+            "item": "ebonstone-block",
             "amount": 1
           },
-          "1": {
-            "item": "Crimstone Block",
+          {
+            "item": "crimstone-block",
             "amount": 1
           },
-          "2": {
-            "item": "Pearlstone Block",
+          {
+            "item": "pearlstone-block",
             "amount": 1
           }
-        }
+        ]
       ]
     },
     {
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Copper Ore",
+        [
+          {
+            "item": "copper-ore",
             "amount": 1
           },
-          "1": {
-            "item": "Amethyst",
+          {
+            "item": "amethyst",
             "amount": 1
           }
-        }
+        ]
       ]
     },
     {
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Stone Wall",
+        [
+          {
+            "item": "stone-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Worn Stone Wall",
+          {
+            "item": "worn-stone-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Old Stone Wall",
+          {
+            "item": "old-stone-wall",
             "amount": 4
           },
-          "3": {
-            "item": "Craggy Stone Wall",
+          {
+            "item": "craggy-stone-wall",
             "amount": 4
           },
-          "4": {
-            "item": "Stalactite Stone Wall",
+          {
+            "item": "stalactite-stone-wall",
             "amount": 4
           },
-          "5": {
-            "item": "Mottled Stone Wall",
+          {
+            "item": "mottled-stone-wall",
             "amount": 4
           },
-          "6": {
-            "item": "Fractured Stone Wall",
+          {
+            "item": "fractured-stone-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -39548,16 +39548,16 @@
       "station": "Iron Anvil",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Platinum Bar",
+        [
+          {
+            "item": "platinum-bar",
             "amount": 30
           },
-          "1": {
-            "item": "Gold Bar",
+          {
+            "item": "gold-bar",
             "amount": 30
           }
-        },
+        ],
         {
           "item": "silk",
           "amount": 20
@@ -39570,16 +39570,16 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Vicious Powder",
+        [
+          {
+            "item": "vicious-powder",
             "amount": 1
           },
-          "1": {
-            "item": "Vile Powder",
+          {
+            "item": "vile-powder",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -39760,16 +39760,16 @@
       "station": "Iron Anvil",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Platinum Watch",
+        [
+          {
+            "item": "platinum-watch",
             "amount": 1
           },
-          "1": {
-            "item": "Gold Watch",
+          {
+            "item": "gold-watch",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "wire",
           "amount": 1
@@ -39782,16 +39782,16 @@
       "station": "Iron Anvil",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Silver Watch",
+        [
+          {
+            "item": "silver-watch",
             "amount": 1
           },
-          "1": {
-            "item": "Tungsten Watch",
+          {
+            "item": "tungsten-watch",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "wire",
           "amount": 1
@@ -39804,16 +39804,16 @@
       "station": "Iron Anvil",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Copper Watch",
+        [
+          {
+            "item": "copper-watch",
             "amount": 1
           },
-          "1": {
-            "item": "Tin Watch",
+          {
+            "item": "tin-watch",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "wire",
           "amount": 1
@@ -40930,20 +40930,20 @@
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Sapphire",
+        [
+          {
+            "item": "sapphire",
             "amount": 1
           },
-          "1": {
-            "item": "Topaz Bunny",
+          {
+            "item": "topaz-bunny",
             "amount": 1
           },
-          "2": {
-            "item": "Topaz Squirrel",
+          {
+            "item": "topaz-squirrel",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -41128,24 +41128,24 @@
       "station": "By Hand",
       "amount": 3,
       "ingredients": [
-        {
-          "0": {
-            "item": "Ice Block",
+        [
+          {
+            "item": "ice-block",
             "amount": 1
           },
-          "1": {
-            "item": "Purple Ice Block",
+          {
+            "item": "purple-ice-block",
             "amount": 1
           },
-          "2": {
-            "item": "Pink Ice Block",
+          {
+            "item": "pink-ice-block",
             "amount": 1
           },
-          "3": {
-            "item": "Red Ice Block",
+          {
+            "item": "red-ice-block",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "torch",
           "amount": 3
@@ -41222,24 +41222,24 @@
       "station": "By Hand",
       "amount": 3,
       "ingredients": [
-        {
-          "0": {
-            "item": "Hardened Pearlsand Block",
+        [
+          {
+            "item": "hardened-pearlsand-block",
             "amount": 1
           },
-          "1": {
-            "item": "Hardened Crimsand Block",
+          {
+            "item": "hardened-crimsand-block",
             "amount": 1
           },
-          "2": {
-            "item": "Hardened Sand Block",
+          {
+            "item": "hardened-sand-block",
             "amount": 1
           },
-          "3": {
-            "item": "Hardened Ebonsand Block",
+          {
+            "item": "hardened-ebonsand-block",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "torch",
           "amount": 3
@@ -41268,20 +41268,20 @@
       "station": "By Hand",
       "amount": 3,
       "ingredients": [
-        {
-          "0": {
-            "item": "Purple Ice Block",
+        [
+          {
+            "item": "purple-ice-block",
             "amount": 1
           },
-          "1": {
-            "item": "Ebonstone Block",
+          {
+            "item": "ebonstone-block",
             "amount": 1
           },
-          "2": {
-            "item": "Hardened Ebonsand Block",
+          {
+            "item": "hardened-ebonsand-block",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "torch",
           "amount": 3
@@ -41294,20 +41294,20 @@
       "station": "By Hand",
       "amount": 3,
       "ingredients": [
-        {
-          "0": {
-            "item": "Hardened Crimsand Block",
+        [
+          {
+            "item": "hardened-crimsand-block",
             "amount": 1
           },
-          "1": {
-            "item": "Red Ice Block",
+          {
+            "item": "red-ice-block",
             "amount": 1
           },
-          "2": {
-            "item": "Crimstone Block",
+          {
+            "item": "crimstone-block",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "torch",
           "amount": 3
@@ -41320,20 +41320,20 @@
       "station": "By Hand",
       "amount": 3,
       "ingredients": [
-        {
-          "0": {
-            "item": "Pearlstone Block",
+        [
+          {
+            "item": "pearlstone-block",
             "amount": 1
           },
-          "1": {
-            "item": "Hardened Pearlsand Block",
+          {
+            "item": "hardened-pearlsand-block",
             "amount": 1
           },
-          "2": {
-            "item": "Pink Ice Block",
+          {
+            "item": "pink-ice-block",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "torch",
           "amount": 3
@@ -42808,16 +42808,16 @@
       "station": "Iron Anvil",
       "amount": 5,
       "ingredients": [
-        {
-          "0": {
-            "item": "Vertebra",
+        [
+          {
+            "item": "vertebra",
             "amount": 1
           },
-          "1": {
-            "item": "Worm Tooth",
+          {
+            "item": "worm-tooth",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "wooden-arrow",
           "amount": 5
@@ -42926,16 +42926,16 @@
           "item": "jungle-spores",
           "amount": 15
         },
-        {
-          "0": {
-            "item": "Shadow Scale",
+        [
+          {
+            "item": "shadow-scale",
             "amount": 30
           },
-          "1": {
-            "item": "Tissue Sample",
+          {
+            "item": "tissue-sample",
             "amount": 30
           }
-        }
+        ]
       ]
     }
   ],
@@ -42968,16 +42968,16 @@
           "item": "jungle-spores",
           "amount": 8
         },
-        {
-          "0": {
-            "item": "Tissue Sample",
+        [
+          {
+            "item": "tissue-sample",
             "amount": 15
           },
-          "1": {
-            "item": "Shadow Scale",
+          {
+            "item": "shadow-scale",
             "amount": 15
           }
-        }
+        ]
       ]
     }
   ],
@@ -43282,16 +43282,16 @@
       "station": "Crystal Ball and Water",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Platinum Candle",
+        [
+          {
+            "item": "platinum-candle",
             "amount": 1
           },
-          "1": {
-            "item": "Candle",
+          {
+            "item": "candle",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ],
@@ -43866,16 +43866,16 @@
       "station": "Bone Welder",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Wood Shelf",
+        [
+          {
+            "item": "wood-shelf",
             "amount": 2
           },
-          "1": {
-            "item": "Dungeon Shelf",
+          {
+            "item": "dungeon-shelf",
             "amount": 2
           }
-        }
+        ]
       ]
     },
     {
@@ -43892,80 +43892,80 @@
       "station": "Living Loom",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Living Wood Platform",
+        [
+          {
+            "item": "living-wood-platform",
             "amount": 2
           },
-          "1": {
-            "item": "Living Wood Wall",
+          {
+            "item": "living-wood-wall",
             "amount": 4
           },
-          "2": {
-            "item": "Living Leaf Wall",
+          {
+            "item": "living-leaf-wall",
             "amount": 4
           }
-        }
+        ]
       ]
     },
     {
       "station": "Shimmer",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Shadewood",
+        [
+          {
+            "item": "shadewood",
             "amount": 1
           },
-          "1": {
-            "item": "Pearlwood",
+          {
+            "item": "pearlwood",
             "amount": 1
           },
-          "2": {
-            "item": "Dynasty Wood",
+          {
+            "item": "dynasty-wood",
             "amount": 1
           },
-          "3": {
-            "item": "Ash Wood",
+          {
+            "item": "ash-wood",
             "amount": 1
           },
-          "4": {
-            "item": "Spooky Wood",
+          {
+            "item": "spooky-wood",
             "amount": 1
           },
-          "5": {
-            "item": "Ebonwood",
+          {
+            "item": "ebonwood",
             "amount": 1
           },
-          "6": {
-            "item": "Palm Wood",
+          {
+            "item": "palm-wood",
             "amount": 1
           },
-          "7": {
-            "item": "Rich Mahogany",
+          {
+            "item": "rich-mahogany",
             "amount": 1
           },
-          "8": {
-            "item": "Boreal Wood",
+          {
+            "item": "boreal-wood",
             "amount": 1
           }
-        }
+        ]
       ]
     },
     {
       "station": "Work Bench",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Wood Wall",
+        [
+          {
+            "item": "wood-wall",
             "amount": 4
           },
-          "1": {
-            "item": "Wooden Fence",
+          {
+            "item": "wooden-fence",
             "amount": 4
           }
-        }
+        ]
       ]
     }
   ],
@@ -44528,32 +44528,32 @@
       "station": "Tinkerer's Workshop",
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Black Counterweight",
+        [
+          {
+            "item": "black-counterweight",
             "amount": 1
           },
-          "1": {
-            "item": "Blue Counterweight",
+          {
+            "item": "blue-counterweight",
             "amount": 1
           },
-          "2": {
-            "item": "Green Counterweight",
+          {
+            "item": "green-counterweight",
             "amount": 1
           },
-          "3": {
-            "item": "Purple Counterweight",
+          {
+            "item": "purple-counterweight",
             "amount": 1
           },
-          "4": {
-            "item": "Red Counterweight",
+          {
+            "item": "red-counterweight",
             "amount": 1
           },
-          "5": {
-            "item": "Yellow Counterweight",
+          {
+            "item": "yellow-counterweight",
             "amount": 1
           }
-        },
+        ],
         {
           "item": "white-string",
           "amount": 1
@@ -44642,20 +44642,20 @@
       "station": null,
       "amount": 1,
       "ingredients": [
-        {
-          "0": {
-            "item": "Silly Green Balloon",
+        [
+          {
+            "item": "silly-green-balloon",
             "amount": 1
           },
-          "1": {
-            "item": "Silly Pink Balloon",
+          {
+            "item": "silly-pink-balloon",
             "amount": 1
           },
-          "2": {
-            "item": "Silly Purple Balloon",
+          {
+            "item": "silly-purple-balloon",
             "amount": 1
           }
-        }
+        ]
       ]
     }
   ]

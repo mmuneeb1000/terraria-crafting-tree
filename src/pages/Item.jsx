@@ -4,6 +4,7 @@ import recipes from "../data/recipes.json";
 import ItemHeader from "../components/item/ItemHeader";
 import ItemInfo from "../components/item/ItemStats";
 import ItemRecipes from "../components/item/ItemRecipes";
+import ItemRecipeTrees from "../components/craftingTree/ItemRecipeTrees";
 
 function Item() {
   const { id } = useParams();
@@ -21,6 +22,7 @@ function Item() {
       <ItemHeader item={item} />
       <ItemInfo item={item} />
       <ItemRecipes recipes={itemRecipes} itemMap={items} />
+      <ItemRecipeTrees itemId={id} recipes={recipes} itemMap={itemMap} />
     </>
   );
 }

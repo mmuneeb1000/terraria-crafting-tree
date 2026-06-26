@@ -1,17 +1,14 @@
 function ItemHeader({ item }) {
   return (
-    <section className="item-header">
+    <section className="item-header  text-center ">
+      <h3>{item.name}</h3>
       <img
         src={`/images/items/${item.name}.png`}
         alt={item.name}
         className="item-icon"
       />
 
-      <div>
-        <h1>{item.name}</h1>
-
-        {item.tooltip && <p>{item.tooltip}</p>}
-      </div>
+      <div>{item.tooltip && <p>{item.tooltip}</p>}</div>
     </section>
   );
 }
