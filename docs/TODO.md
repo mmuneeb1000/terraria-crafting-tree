@@ -6,9 +6,9 @@
 - [ - ] Configure React Router
 - [ - ] Install dependencies
 - [ - ] Set up folder structure
-- [ ] Configure ESLint
-- [ ] Configure Prettier
-- [ ] Initialize Git repository
+- [ - ] Configure ESLint
+- [ - ] Configure Prettier
+- [ - ] Initialize Git repository
 
 ---
 
@@ -16,11 +16,11 @@
 
 ### Research
 
-- [ ] Find Terraria item dataset/API
-- [ ] Download item icons
-- [ ] Download recipe data
-- [ ] Download crafting stations
-- [ ] Download categories
+- [ - ] Find Terraria item dataset/API
+- [ x ] Download item icons
+- [ - ] Download recipe data
+- [ - ] Download crafting stations
+- [ - ] Download categories
 
 ### Processing
 
@@ -36,7 +36,7 @@
 
 ### Branding
 
-- [ ] Choose website name
+- [ - ] Choose website name
 - [ ] Design logo
 - [ ] Select fonts
 - [ ] Select color palette

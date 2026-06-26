@@ -8,6 +8,7 @@ import Category from "./pages/Category";
 import Search from "./pages/Search";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import ItemList from "./pages/ItemList";
 
 export const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
+      },
+      {
+        path: "item",
+        element: <ItemList />,
       },
       {
         path: "item/:id",
