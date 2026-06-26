@@ -1,7 +1,9 @@
 export function getRecipes(itemId, recipes) {
-  return recipes[itemId] ?? [];
-}
+  const itemRecipes = recipes?.[itemId] ?? [];
 
-export function hasRecipe(itemId, recipes) {
-  return getRecipes(itemId, recipes).length > 0;
+  return [...itemRecipes].sort((a, b) => {
+    if (a.station === "By Hand" && b.station !== "By Hand") return 1;
+    if (a.station !== "By Hand" && b.station === "By Hand") return -1;
+    return 0;
+  });
 }

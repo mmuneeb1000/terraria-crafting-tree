@@ -18,7 +18,7 @@ const stats = {
 };
 
 function cleanIngredient(ingredient) {
-  // Alternative ingredient group (OR)
+  // OR group: [[item, amount], [item, amount]]
   if (
     Array.isArray(ingredient) &&
     ingredient.length > 0 &&
@@ -30,7 +30,7 @@ function cleanIngredient(ingredient) {
     }));
   }
 
-  // Normal ingredient
+  // normal ingredient: [item, amount]
   const [item, amount] = ingredient;
 
   return {
@@ -38,6 +38,7 @@ function cleanIngredient(ingredient) {
     amount: Number(amount),
   };
 }
+
 function toSlug(str) {
   if (!str) return "unknown";
   return str
@@ -49,7 +50,9 @@ function toSlug(str) {
 
 for (const [id, item] of Object.entries(raw)) {
   stats.items++;
+
   const safeId = toSlug(id);
+
   items[safeId] = {
     id: safeId,
     name: item.name,
@@ -70,28 +73,26 @@ for (const [id, item] of Object.entries(raw)) {
   };
 
   if (item.recipes) {
-    recipes[safeId] = item.recipes.map((recipe) => ({
-      station: recipe.station ?? null,
-      amount: Number(recipe.amount ?? 1),
-
-      ingredients: (recipe.ings ?? []).map((ingredient) => {
+    recipes[safeId] = item.recipes.map((recipe) => {
+      const ingredients = (recipe.ings ?? []).flatMap((ingredient) => {
         const cleaned = cleanIngredient(ingredient);
 
-        if (Array.isArray(cleaned)) {
-          return cleaned.map((ing) => ({
-            item: toSlug(ing.item),
-            amount: ing.amount,
-          }));
-        }
+        const list = Array.isArray(cleaned) ? cleaned : [cleaned];
 
-        return {
-          item: toSlug(cleaned.item),
-          amount: cleaned.amount,
-        };
-      }),
-    }));
+        return list.map((ing) => ({
+          item: toSlug(ing.item),
+          amount: Number(ing.amount),
+        }));
+      });
 
-    stats.recipes++;
+      return {
+        station: recipe.station ?? null,
+        amount: Number(recipe.amount ?? 1),
+        ingredients,
+      };
+    });
+
+    stats.recipes += item.recipes.length;
   }
 
   search.push({
