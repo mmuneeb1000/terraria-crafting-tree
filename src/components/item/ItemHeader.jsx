@@ -3,7 +3,7 @@ function ItemHeader({ item }) {
     <section className="item-header  text-center ">
       <h3>{item.name}</h3>
       <img
-        src={`/images/items/${item.name}.png`}
+        src={`../assets/images/${item.name}.png`}
         alt={item.name}
         className="item-icon"
       />
