@@ -9,6 +9,10 @@ function Navbar() {
       <Link to="/item" className="hover:underline">
         Items
       </Link>
+      <Link to="/recipes" className="hover:underline">
+        Recipes
+      </Link>
+
       <Link to="/search" className="hover:underline">
         Search
       </Link>

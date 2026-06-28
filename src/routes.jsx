@@ -9,6 +9,7 @@ import Search from "./pages/Search";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import ItemList from "./pages/ItemList";
+import RecipeList from "./pages/RecipeList";
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ export const router = createBrowserRouter([
         path: "item",
         element: <ItemList />,
       },
+      {
+        path: "recipes",
+        element: <RecipeList />,
+      },
+
       {
         path: "item/:id",
         element: <Item />,
