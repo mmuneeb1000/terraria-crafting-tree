@@ -18,7 +18,7 @@ function ItemList() {
           <div className="p-2" key={item.id}>
             <Link
               to={`/item/${item.id}`}
-              className="border p-2  hover:bg-gray-100"
+              className="border p-2 rounded-xl hover:bg-gray-100"
             >
               {item.name}
             </Link>

@@ -31,12 +31,12 @@ function Search() {
         className="border p-2 w-full mb-4"
       />
 
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-4">
         {results.map((item) => (
           <Link
             key={item.id}
             to={`/item/${item.id}`}
-            className="border p-2 hover:bg-gray-100"
+            className="border p-2 rounded-xl hover:bg-gray-100"
           >
             {item.name}
           </Link>

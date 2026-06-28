@@ -12,14 +12,14 @@ function RecipeList() {
 
   return (
     <div>
-      <h1>Recipes</h1>
+      <h1 className="text-center">Recipes</h1>
 
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 p-2">
         {recipeItems.map((item) => (
           <div key={item.id} className="p-2">
             <Link
               to={`/item/${item.id}`}
-              className="border p-2 hover:bg-gray-100"
+              className="border p-2 rounded-xl hover:bg-gray-100"
             >
               {item.name}
             </Link>

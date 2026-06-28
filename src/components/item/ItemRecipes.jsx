@@ -1,73 +1,53 @@
 import { Link } from "react-router-dom";
+import recipes from "../../data/recipes.json";
 
-function ItemRecipes({ recipes, itemMap }) {
-  if (!recipes?.length) return null;
+function ItemRecipes({ itemId, itemMap }) {
+  const itemRecipes = recipes[itemId];
+
+  if (!itemRecipes?.length) return null;
 
   return (
-    <div>
-      <h2 className="text-center mt-6">Recipes</h2>
+    <section className="mt-8">
+      <h2 className="text-2xl font-bold mb-4">Recipes</h2>
 
-      <div className="grid grid-cols-1 gap-4">
-        {recipes.map((recipe, i) => (
-          <div key={i} className="border p-3 rounded">
-            <div className="text-primary">
-              Station: {recipe.station ?? "None"}
+      <div className="space-y-6">
+        {itemRecipes.map((recipe, index) => (
+          <div key={index} className="rounded-xl border p-4">
+            <p className="mb-4">
+              <strong>Crafting Station:</strong> {recipe.station}
+            </p>
+
+            <div>
+              <h3 className="font-semibold mb-2">Ingredients</h3>
+
+              <ul className="space-y-2">
+                {recipe.ingredients.map((ingredient) => (
+                  <li key={ingredient.item} className="flex items-center gap-3">
+                    <img
+                      src={`/public/images/${ingredient.item}.png`}
+                      alt=""
+                      className="w-8 h-8"
+                    />
+
+                    <span>{ingredient.amount}×</span>
+                    <Link
+                      to={`/item/${ingredient.item}`}
+                      className="hover:text-sky-400 hover:underline"
+                    >
+                      <span>{itemMap[ingredient.item]?.name}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
 
-            <ul className="mt-2">
-              {recipe.ingredients.map((ing, j) => {
-                if (Array.isArray(ing)) {
-                  return (
-                    <li key={j}>
-                      Any of:
-                      <ul className="ml-4 list-disc">
-                        {ing.map((alt) => {
-                          const exists = itemMap[alt.item];
-
-                          return (
-                            <li key={alt.item}>
-                              {alt.amount} ×{" "}
-                              {exists ? (
-                                <Link
-                                  to={`/item/${alt.item}`}
-                                  className="text-blue-600 hover:underline"
-                                >
-                                  {exists.name}
-                                </Link>
-                              ) : (
-                                <span>{alt.item}</span>
-                              )}
-                            </li>
-                          );
-                        })}
-                      </ul>
-                    </li>
-                  );
-                }
-
-                const exists = itemMap[ing.item];
-
-                return (
-                  <li key={j}>
-                    {ing.amount} ×{" "}
-                    {exists ? (
-                      <Link
-                        to={`/item/${ing.item}`}
-                        className="text-blue-600 hover:underline"
-                      >
-                        {exists.name}
-                      </Link>
-                    ) : (
-                      <span>{ing.item}</span>
-                    )}
-                  </li>
-                );
-              })}
-            </ul>
+            <div className="mt-4">
+              Produces: {recipe.amount} × {itemMap[itemId].name}
+            </div>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 
