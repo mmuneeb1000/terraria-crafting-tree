@@ -2,7 +2,7 @@
   "ankh_charm": {
     "item": "ankh_charm",
     "amount": 1,
-    "station": "tinkerers_workshop",
+    "station": "Tinkerer's Workshop",
     "ingredients": [
       {
         "item": "armor_bracing",
@@ -90,7 +90,7 @@
   "terraspark_boots": {
     "item": "terraspark_boots",
     "amount": 1,
-    "station": "tinkerers_workshop",
+    "station": "Tinkerer's Workshop",
     "ingredients": [
       {
         "item": "frostspark_boots",
@@ -112,6 +112,25 @@
                   {
                     "item": "hermes_boots",
                     "amount": 1,
+                    "group": "boots_alt",
+                    "ingredients": []
+                  },
+                  {
+                    "item": "flurry_boots",
+                    "amount": 1,
+                    "group": "boots_alt",
+                    "ingredients": []
+                  },
+                  {
+                    "item": "dunerider_boots",
+                    "amount": 1,
+                    "group": "boots_alt",
+                    "ingredients": []
+                  },
+                  {
+                    "item": "sailfish_boots",
+                    "amount": 1,
+                    "group": "boots_alt",
                     "ingredients": []
                   }
                 ]
@@ -142,6 +161,7 @@
           {
             "item": "obsidian_water_walking_boots",
             "amount": 1,
+            "group": "walking-alt",
             "ingredients": [
               {
                 "item": "water_walking_boots",
@@ -151,10 +171,52 @@
               {
                 "item": "obsidian_skull",
                 "amount": 1,
+                "ingredients": []
+              }
+            ]
+          },
+          {
+            "item": "water_walking_boots",
+            "amount": 1,
+            "group": "walking-alt",
+            "ingredients": []
+          },
+          {
+            "item": "molten_skull_rose",
+            "amount": 1,
+            "group": "molten_alt",
+            "station": "Tinkerer's Workshop",
+            "ingredients": [
+              {
+                "item": "magma_skull",
+                "amount": 1,
+                "station": "Tinkerer's Workshop",
                 "ingredients": [
                   {
-                    "item": "obsidian",
-                    "amount": 20,
+                    "item": "lava_charm",
+                    "amount": 1,
+                    "ingredients": []
+                  },
+                  {
+                    "item": "obsidian_skull",
+                    "amount": 1,
+                    "ingredients": []
+                  }
+                ]
+              },
+              {
+                "item": "obsidian_skull_rose",
+                "amount": 1,
+                "station": "Tinkerer's Workshop",
+                "ingredients": [
+                  {
+                    "item": "obsidian_skull",
+                    "amount": 1,
+                    "ingredients": []
+                  },
+                  {
+                    "item": "obsidian_rose",
+                    "amount": 1,
                     "ingredients": []
                   }
                 ]
@@ -164,9 +226,320 @@
           {
             "item": "molten_charm",
             "amount": 1,
+            "group": "molten_alt",
+            "ingredients": []
+          },
+          {
+            "item": "obsidian_rose",
+            "amount": 1,
+            "group": "molten_alt",
+            "ingredients": []
+          }
+        ]
+      }
+    ]
+  },
+  "terra_blade": {
+    "item": "terra_blade",
+    "amount": 1,
+    "station": "Mythril or Orichalcum Anvil",
+    "ingredients": [
+      {
+        "item": "true_nights_edge",
+        "amount": 1,
+        "station": "Mythril or Orichalcum Anvil",
+        "ingredients": [
+          {
+            "item": "nights_edge",
+            "amount": 1,
+            "station": "Demon or Crimson Altar",
+            "ingredients": [
+              {
+                "item": "volcano",
+                "amount": 1,
+                "station": "Iron or Lead Anvil",
+                "ingredients": [
+                  { "item": "hellstone_bar", "amount": 20, "ingredients": [] }
+                ]
+              },
+              {
+                "item": "muramasa",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "blade_of_grass",
+                "amount": 1,
+                "station": "Iron or Lead Anvil",
+                "ingredients": [
+                  { "item": "jungle_spores", "amount": 12, "ingredients": [] },
+                  { "item": "stinger", "amount": 15, "ingredients": [] }
+                ]
+              },
+              {
+                "item": "lights_bane",
+                "amount": 1,
+                "group": "evil_sword",
+                "ingredients": [
+                  { "item": "demonite_bar", "amount": 20, "ingredients": [] }
+                ]
+              },
+              {
+                "item": "blood_butcherer",
+                "amount": 1,
+                "group": "evil_sword",
+                "ingredients": [
+                  { "item": "crimtane_bar", "amount": 20, "ingredients": [] }
+                ]
+              }
+            ]
+          },
+          { "item": "soul_of_sight", "amount": 20, "ingredients": [] },
+          { "item": "soul_of_might", "amount": 20, "ingredients": [] },
+          { "item": "soul_of_fright", "amount": 20, "ingredients": [] }
+        ]
+      },
+      {
+        "item": "broken_hero_sword",
+        "amount": 1,
+        "ingredients": []
+      },
+      {
+        "item": "true_excalibur",
+        "amount": 1,
+        "station": "Mythril or Orichalcum Anvil",
+        "ingredients": [
+          {
+            "item": "excalibur",
+            "amount": 1,
+            "station": "Mythril or Orichalcum Anvil",
+            "ingredients": [
+              { "item": "hallowed_bar", "amount": 12, "ingredients": [] }
+            ]
+          },
+          {
+            "item": "chlorophyte_bar",
+            "amount": 24,
+            "ingredients": [
+              { "item": "chlorophyte_ore", "amount": 120, "ingredients": [] }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bundle_of_horseshoe_balloons": {
+    "item": "bundle_of_horseshoe_balloons",
+    "amount": 1,
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+      {
+        "item": "blue_horseshoe_balloon",
+        "amount": 1,
+        "station": "Tinkerer's Workshop",
+        "ingredients": [
+          {
+            "item": "cloud_in_a_balloon",
+            "amount": 1,
+            "station": "Tinkerer's Workshop",
+            "ingredients": [
+              {
+                "item": "cloud_in_a_bottle",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "shiny_red_balloon",
+                "amount": 1,
+                "ingredients": []
+              }
+            ]
+          },
+          {
+            "item": "blue_horseshoe",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      },
+      {
+        "item": "white_horseshoe_balloon",
+        "amount": 1,
+        "station": "Tinkerer's Workshop",
+        "ingredients": [
+          {
+            "item": "cloud_in_a_balloon",
+            "amount": 1,
+            "station": "Tinkerer's Workshop",
+            "ingredients": [
+              {
+                "item": "cloud_in_a_bottle",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "shiny_red_balloon",
+                "amount": 1,
+                "ingredients": []
+              }
+            ]
+          },
+          {
+            "item": "white_horseshoe",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      },
+      {
+        "item": "yellow_horseshoe_balloon",
+        "amount": 1,
+        "station": "Tinkerer's Workshop",
+        "ingredients": [
+          {
+            "item": "cloud_in_a_balloon",
+            "amount": 1,
+            "station": "Tinkerer's Workshop",
+            "ingredients": [
+              {
+                "item": "cloud_in_a_bottle",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "shiny_red_balloon",
+                "amount": 1,
+                "ingredients": []
+              }
+            ]
+          },
+          {
+            "item": "yellow_horseshoe",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      }
+    ]
+  },
+  "celestial_shell": {
+    "item": "celestial_shell",
+    "amount": 1,
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+      {
+        "item": "moon_shell",
+        "amount": 1,
+        "station": "Tinkerer's Workshop",
+        "ingredients": [
+          { "item": "moon_charm", "amount": 1, "ingredients": [] },
+          { "item": "neptunes_shell", "amount": 1, "ingredients": [] }
+        ]
+      },
+      {
+        "item": "celestial_stone",
+        "amount": 1,
+        "station": "Tinkerer's Workshop",
+        "ingredients": [
+          { "item": "moon_stone", "amount": 1, "ingredients": [] },
+          { "item": "sun_stone", "amount": 1, "ingredients": [] }
+        ]
+      }
+    ]
+  },
+  "spectre_boots": {
+    "item": "spectre_boots",
+    "amount": 1,
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+      {
+        "item": "rocket_boots",
+        "amount": 1,
+        "ingredients": []
+      },
+      {
+        "item": "hermes_boots",
+        "amount": 1,
+        "group": "boots_alt",
+        "ingredients": []
+      },
+      {
+        "item": "flurry_boots",
+        "amount": 1,
+        "group": "boots_alt",
+        "ingredients": []
+      },
+      {
+        "item": "dunerider_boots",
+        "amount": 1,
+        "group": "boots_alt",
+        "ingredients": []
+      },
+      {
+        "item": "sailfish_boots",
+        "amount": 1,
+        "group": "boots_alt",
+        "ingredients": []
+      }
+    ]
+  },
+  "lava_waders": {
+    "item": "lava_waders",
+    "amount": 1,
+    "ingredients": [
+      {
+        "item": "obsidian_water_walking_boots",
+        "amount": 1,
+        "group": "walking-alt",
+        "ingredients": [
+          {
+            "item": "water_walking_boots",
+            "amount": 1,
+            "ingredients": []
+          },
+          {
+            "item": "obsidian_skull",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      },
+      {
+        "item": "water_walking_boots",
+        "amount": 1,
+        "group": "walking-alt",
+        "ingredients": []
+      },
+      {
+        "item": "molten_skull_rose",
+        "amount": 1,
+        "group": "molten_alt",
+        "station": "Tinkerer's Workshop",
+        "ingredients": [
+          {
+            "item": "magma_skull",
+            "amount": 1,
+            "station": "Tinkerer's Workshop",
             "ingredients": [
               {
                 "item": "lava_charm",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "obsidian_skull",
+                "amount": 1,
+                "ingredients": []
+              }
+            ]
+          },
+          {
+            "item": "obsidian_skull_rose",
+            "amount": 1,
+            "station": "Tinkerer's Workshop",
+            "ingredients": [
+              {
+                "item": "obsidian_skull",
                 "amount": 1,
                 "ingredients": []
               },
@@ -178,6 +551,548 @@
             ]
           }
         ]
+      },
+      {
+        "item": "molten_charm",
+        "amount": 1,
+        "group": "molten_alt",
+        "ingredients": []
+      },
+      {
+        "item": "obsidian_rose",
+        "amount": 1,
+        "group": "molten_alt",
+        "ingredients": []
+      }
+    ]
+  },
+  "obsidian_skull_rose": {
+    "item": "obsidian_skull_rose",
+    "amount": 1,
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+      {
+        "item": "obsidian_skull",
+        "amount": 1,
+        "ingredients": []
+      },
+      {
+        "item": "obsidian_rose",
+        "amount": 1,
+        "ingredients": []
+      }
+    ]
+  },
+  "molten_skull_rose": {
+    "item": "molten_skull_rose",
+    "amount": 1,
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+      {
+        "item": "magma_skull",
+        "amount": 1,
+        "station": "Furnace",
+        "ingredients": [
+          { "item": "obsidian_skull", "amount": 1, "ingredients": [] },
+          { "item": "lava_charm", "amount": 1, "ingredients": [] }
+        ]
+      },
+      {
+        "item": "obsidian_skull_rose",
+        "amount": 1,
+        "station": "Tinkerer's Workshop",
+        "ingredients": [
+          {
+            "item": "obsidian_skull",
+            "amount": 1,
+            "station": "Furnace",
+            "ingredients": []
+          },
+          {
+            "item": "obsidian_rose",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      }
+    ]
+  },
+
+  "frostspark_boots": {
+    "item": "frostspark_boots",
+    "amount": 1,
+    "ingredients": [
+      {
+        "item": "lightning_boots",
+        "amount": 1,
+        "ingredients": [
+          {
+            "item": "spectre_boots",
+            "amount": 1,
+            "ingredients": [
+              {
+                "item": "rocket_boots",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "hermes_boots",
+                "amount": 1,
+                "group": "boots_alt",
+                "ingredients": []
+              },
+              {
+                "item": "flurry_boots",
+                "amount": 1,
+                "group": "boots_alt",
+                "ingredients": []
+              },
+              {
+                "item": "dunerider_boots",
+                "amount": 1,
+                "group": "boots_alt",
+                "ingredients": []
+              },
+              {
+                "item": "sailfish_boots",
+                "amount": 1,
+                "group": "boots_alt",
+                "ingredients": []
+              }
+            ]
+          },
+          {
+            "item": "aglet",
+            "amount": 1,
+            "ingredients": []
+          },
+          {
+            "item": "anklet_of_the_wind",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      },
+      {
+        "item": "ice_skates",
+        "amount": 1,
+        "ingredients": []
+      }
+    ]
+  },
+  "lightning_boots": {
+    "item": "lightning_boots",
+    "amount": 1,
+    "ingredients": [
+      {
+        "item": "spectre_boots",
+        "amount": 1,
+        "ingredients": [
+          {
+            "item": "rocket_boots",
+            "amount": 1,
+            "ingredients": []
+          },
+          {
+            "item": "hermes_boots",
+            "amount": 1,
+            "group": "boots_alt",
+            "ingredients": []
+          },
+          {
+            "item": "flurry_boots",
+            "amount": 1,
+            "group": "boots_alt",
+            "ingredients": []
+          },
+          {
+            "item": "dunerider_boots",
+            "amount": 1,
+            "group": "boots_alt",
+            "ingredients": []
+          },
+          {
+            "item": "sailfish_boots",
+            "amount": 1,
+            "group": "boots_alt",
+            "ingredients": []
+          }
+        ]
+      },
+      {
+        "item": "aglet",
+        "amount": 1,
+        "ingredients": []
+      },
+      {
+        "item": "anklet_of_the_wind",
+        "amount": 1,
+        "ingredients": []
+      }
+    ]
+  },
+  "nights_edge": {
+    "item": "nights_edge",
+    "amount": 1,
+    "station": "Demon or Crimson Altar",
+    "ingredients": [
+      {
+        "item": "volcano",
+        "amount": 1,
+        "station": "Iron or Lead Anvil",
+        "ingredients": [
+          { "item": "hellstone_bar", "amount": 20, "ingredients": [] }
+        ]
+      },
+      {
+        "item": "muramasa",
+        "amount": 1,
+        "ingredients": []
+      },
+      {
+        "item": "blade_of_grass",
+        "amount": 1,
+        "station": "Iron or Lead Anvil",
+        "ingredients": [
+          { "item": "jungle_spores", "amount": 12, "ingredients": [] },
+          { "item": "stinger", "amount": 15, "ingredients": [] },
+          { "item": "vine", "amount": 3, "ingredients": [] }
+        ]
+      },
+      {
+        "item": "lights_bane",
+        "amount": 1,
+        "group": "evil_sword",
+        "ingredients": [
+          { "item": "demonite_bar", "amount": 20, "ingredients": [] }
+        ]
+      },
+      {
+        "item": "blood_butcherer",
+        "amount": 1,
+        "group": "evil_sword",
+        "ingredients": [
+          { "item": "crimtane_bar", "amount": 20, "ingredients": [] }
+        ]
+      }
+    ]
+  },
+  "yoyo_bag": {
+    "item": "yoyo_bag",
+    "amount": 1,
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+      {
+        "item": "strung_counterweight",
+        "amount": 1,
+        "station": "Tinkerer's Workshop",
+        "ingredients": [
+          {
+            "item": "white_string",
+            "amount": 1,
+            "ingredients": []
+          },
+          {
+            "item": "black_counterweight",
+            "amount": 1,
+            "group": "counterweight",
+            "ingredients": []
+          },
+          {
+            "item": "purple_counterweight",
+            "amount": 1,
+            "group": "counterweight",
+            "ingredients": []
+          },
+          {
+            "item": "red_counterweight",
+            "amount": 1,
+            "group": "counterweight",
+            "ingredients": []
+          },
+          {
+            "item": "green_counterweight",
+            "amount": 1,
+            "group": "counterweight",
+            "ingredients": []
+          },
+          {
+            "item": "blue_counterweight",
+            "amount": 1,
+            "group": "counterweight",
+            "ingredients": []
+          },
+          {
+            "item": "yellow_counterweight",
+            "amount": 1,
+            "group": "counterweight",
+            "ingredients": []
+          }
+        ]
+      },
+      {
+        "item": "yoyo_glove",
+        "amount": 1,
+        "ingredients": []
+      }
+    ]
+  },
+  "arctic_diving_gear": {
+    "item": "arctic_diving_gear",
+    "amount": 1,
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+      {
+        "item": "jellyfish_diving_gear",
+        "amount": 1,
+        "station": "Tinkerer's Workshop",
+        "ingredients": [
+          {
+            "item": "jellyfish_necklace",
+            "amount": 1,
+            "station": "Tinkerer's Workshop",
+            "ingredients": [
+              {
+                "item": "blue_jellyfish",
+                "amount": 1,
+                "group": "jellyfish_type",
+                "ingredients": []
+              },
+              {
+                "item": "green_jellyfish",
+                "amount": 1,
+                "group": "jellyfish_type",
+                "ingredients": []
+              },
+              {
+                "item": "pink_jellyfish",
+                "amount": 1,
+                "group": "jellyfish_type",
+                "ingredients": []
+              }
+            ]
+          },
+          {
+            "item": "diving_gear",
+            "amount": 1,
+            "station": "Tinkerer's Workshop",
+            "ingredients": [
+              {
+                "item": "flipper",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "diving_helmet",
+                "amount": 1,
+                "ingredients": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "item": "ice_skates",
+        "amount": 1,
+        "ingredients": []
+      }
+    ]
+  },
+  "recon_scope": {
+    "item": "recon_scope",
+    "amount": 1,
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+      {
+        "item": "sniper_scope",
+        "amount": 1,
+        "station": "Tinkerer's Workshop",
+        "ingredients": [
+          {
+            "item": "rifle_scope",
+            "amount": 1,
+            "ingredients": []
+          },
+          {
+            "item": "destroyer_emblem",
+            "amount": 1,
+            "station": "Tinkerer's Workshop",
+            "ingredients": [
+              {
+                "item": "avenger_emblem",
+                "amount": 1,
+                "station": "Tinkerer's Workshop",
+                "ingredients": [
+                  {
+                    "item": "soul_of_sight",
+                    "amount": 1,
+                    "ingredients": []
+                  },
+                  {
+                    "item": "soul_of_might",
+                    "amount": 1,
+                    "ingredients": []
+                  },
+                  {
+                    "item": "soul_of_fright",
+                    "amount": 1,
+                    "ingredients": []
+                  },
+                  {
+                    "item": "warrior_emblem",
+                    "amount": 1,
+                    "group": "class_emblem",
+                    "ingredients": []
+                  },
+                  {
+                    "item": "ranger_emblem",
+                    "amount": 1,
+                    "group": "class_emblem",
+                    "ingredients": []
+                  },
+                  {
+                    "item": "sorcerer_emblem",
+                    "amount": 1,
+                    "group": "class_emblem",
+                    "ingredients": []
+                  },
+                  {
+                    "item": "summoner_emblem",
+                    "amount": 1,
+                    "group": "class_emblem",
+                    "ingredients": []
+                  }
+                ]
+              },
+              {
+                "item": "eye_of_the_golem",
+                "amount": 1,
+                "ingredients": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "item": "putrid_scent",
+        "amount": 1,
+        "ingredients": []
+      }
+    ]
+  },
+  "sniper_scope": {
+    "item": "sniper_scope",
+    "amount": 1,
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+      {
+        "item": "rifle_scope",
+        "amount": 1,
+        "ingredients": []
+      },
+      {
+        "item": "destroyer_emblem",
+        "amount": 1,
+        "station": "Tinkerer's Workshop",
+        "ingredients": [
+          {
+            "item": "avenger_emblem",
+            "amount": 1,
+            "station": "Tinkerer's Workshop",
+            "ingredients": [
+              {
+                "item": "soul_of_sight",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "soul_of_might",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "soul_of_fright",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "warrior_emblem",
+                "amount": 1,
+                "group": "class_emblem",
+                "ingredients": []
+              },
+              {
+                "item": "ranger_emblem",
+                "amount": 1,
+                "group": "class_emblem",
+                "ingredients": []
+              },
+              {
+                "item": "sorcerer_emblem",
+                "amount": 1,
+                "group": "class_emblem",
+                "ingredients": []
+              },
+              {
+                "item": "summoner_emblem",
+                "amount": 1,
+                "group": "class_emblem",
+                "ingredients": []
+              }
+            ]
+          },
+          {
+            "item": "eye_of_the_golem",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      }
+    ]
+  },
+  "avenger_emblem": {
+    "item": "avenger_emblem",
+    "amount": 1,
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+      {
+        "item": "soul_of_sight",
+        "amount": 1,
+        "ingredients": []
+      },
+      {
+        "item": "soul_of_might",
+        "amount": 1,
+        "ingredients": []
+      },
+      {
+        "item": "soul_of_fright",
+        "amount": 1,
+        "ingredients": []
+      },
+      {
+        "item": "warrior_emblem",
+        "amount": 1,
+        "group": "class_emblem",
+        "ingredients": []
+      },
+      {
+        "item": "ranger_emblem",
+        "amount": 1,
+        "group": "class_emblem",
+        "ingredients": []
+      },
+      {
+        "item": "sorcerer_emblem",
+        "amount": 1,
+        "group": "class_emblem",
+        "ingredients": []
+      },
+      {
+        "item": "summoner_emblem",
+        "amount": 1,
+        "group": "class_emblem",
+        "ingredients": []
       }
     ]
   }

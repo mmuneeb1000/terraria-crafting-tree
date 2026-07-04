@@ -19,6 +19,9 @@ function Navbar() {
       <Link to="/about" className="hover:underline">
         About
       </Link>
+      <Link to="/trees" className="hover:underline">
+        Trees
+      </Link>
     </nav>
   );
 }

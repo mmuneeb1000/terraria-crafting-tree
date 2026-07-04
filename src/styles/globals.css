@@ -24,3 +24,7 @@
   --color-warning: #d99b3d;
   --color-danger: #c95d4a;
 }
+
+body {
+  font-family: "Inter", sans-serif;
+}

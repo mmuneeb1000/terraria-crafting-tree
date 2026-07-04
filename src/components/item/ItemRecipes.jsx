@@ -8,9 +8,9 @@ function ItemRecipes({ itemId, itemMap }) {
 
   return (
     <section>
-      <h2 className="text-xl font-bold mb-4">Recipes</h2>
+      <h2 className="text-xl font-bold my-4">Recipes</h2>
 
-      <div className="space-y-6">
+      <div className="space-y-6 gap-5 grid grid-cols-3">
         {itemRecipes.map((recipe, index) => (
           <div key={index} className="rounded-xl border p-4">
             <p className="mb-4">
