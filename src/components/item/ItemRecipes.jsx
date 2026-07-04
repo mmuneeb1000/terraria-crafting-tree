@@ -24,7 +24,7 @@ function ItemRecipes({ itemId, itemMap }) {
                 {recipe.ingredients.map((ingredient) => (
                   <li key={ingredient.item} className="flex items-center gap-3">
                     <img
-                      src={`../assets/images/${ingredient.item}.png`}
+                      src={`../../assets/images/${ingredient.item}.png`}
                       alt=""
                       className="w-8 h-8"
                     />

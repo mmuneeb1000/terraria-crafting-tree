@@ -4,7 +4,7 @@ function ItemHeader({ id, item }) {
       <div className="flex justify-start align-center">
         <h3>{item.name} </h3>
         <img
-          src={`/public/images/${id}.png`}
+          src={`../../assets/images/${id}.png`}
           alt={item.name}
           className="item-icon w-6 h-6 my-2 mx-3"
         />
