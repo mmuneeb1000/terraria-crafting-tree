@@ -4,13 +4,6 @@ import images from "../../utils/imageMap";
 
 function ItemRecipes({ itemId, itemMap }) {
   const itemRecipes = recipes[itemId];
-  const toImageKey = (name) =>
-    name
-      .toLowerCase()
-      .replace(/'/g, "")
-      .replace(/&/g, "and")
-      .replace(/\s+/g, "_");
-
   if (!itemRecipes?.length) return null;
 
   return (
