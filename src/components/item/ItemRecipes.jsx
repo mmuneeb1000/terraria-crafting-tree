@@ -28,7 +28,7 @@ function ItemRecipes({ itemId, itemMap }) {
                       className="flex items-center gap-3"
                     >
                       <img
-                        src={[itemMap[ingredient.item]?.name]}
+                        src={`../public/images/${ingredient.item}.png`}
                         alt={itemMap[ingredient.item]?.name}
                         className="w-8 h-8"
                       />
