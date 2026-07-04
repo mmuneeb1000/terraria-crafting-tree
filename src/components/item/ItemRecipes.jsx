@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import recipes from "../../data/recipes.json";
-import images from "../../utils/imageMap";
+import TreeRender from "../craftingTree/TreeRender";
 
 function ItemRecipes({ itemId, itemMap }) {
   const itemRecipes = recipes[itemId];
@@ -28,7 +28,7 @@ function ItemRecipes({ itemId, itemMap }) {
                       className="flex items-center gap-3"
                     >
                       <img
-                        src={images[itemMap[ingredient.item]?.name]}
+                        src={[itemMap[ingredient.item]?.name]}
                         alt={itemMap[ingredient.item]?.name}
                         className="w-8 h-8"
                       />
@@ -53,6 +53,7 @@ function ItemRecipes({ itemId, itemMap }) {
           </div>
         ))}
       </div>
+      <TreeRender itemId={itemId} itemMap={itemMap} />
     </section>
   );
 }

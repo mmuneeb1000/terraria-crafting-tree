@@ -1,13 +1,17 @@
-const imageMap = import.meta.glob("../assets/images/*.png", {
+const files = import.meta.glob("../assets/images/*.png", {
   eager: true,
   import: "default",
 });
 
 const images = {};
 
-for (const path in imageMap) {
-  const id = path.split("/").pop().replace(".png", "");
-  images[id] = imageMap[path];
+const normalize = (str = "") => str.replace(/_/g, " ").toLowerCase();
+
+for (const path in files) {
+  const fileName = path.split("/").pop().replace(".png", "");
+  images[normalize(fileName)] = files[path];
 }
+
+export const getImage = (name) => images[normalize(name)];
 
 export default images;

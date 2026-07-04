@@ -1,0 +1,184 @@
+{
+  "ankh_charm": {
+    "item": "ankh_charm",
+    "amount": 1,
+    "station": "tinkerers_workshop",
+    "ingredients": [
+      {
+        "item": "armor_bracing",
+        "amount": 1,
+        "ingredients": [
+          {
+            "item": "armor_polish",
+            "amount": 1,
+            "ingredients": []
+          },
+          {
+            "item": "vitamins",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      },
+      {
+        "item": "medicated_bandage",
+        "amount": 1,
+        "ingredients": [
+          {
+            "item": "bezoar",
+            "amount": 1,
+            "ingredients": []
+          },
+          {
+            "item": "adhesive_bandage",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      },
+      {
+        "item": "the_plan",
+        "amount": 1,
+        "ingredients": [
+          {
+            "item": "fast_clock",
+            "amount": 1,
+            "ingredients": []
+          },
+          {
+            "item": "trifold_map",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      },
+      {
+        "item": "countercurse_mantra",
+        "amount": 1,
+        "ingredients": [
+          {
+            "item": "megaphone",
+            "amount": 1,
+            "ingredients": []
+          },
+          {
+            "item": "nazar",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      },
+      {
+        "item": "reflective_shades",
+        "amount": 1,
+        "ingredients": [
+          {
+            "item": "blindfold",
+            "amount": 1,
+            "ingredients": []
+          },
+          {
+            "item": "pocket_mirror",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      }
+    ]
+  },
+
+  "terraspark_boots": {
+    "item": "terraspark_boots",
+    "amount": 1,
+    "station": "tinkerers_workshop",
+    "ingredients": [
+      {
+        "item": "frostspark_boots",
+        "amount": 1,
+        "ingredients": [
+          {
+            "item": "lightning_boots",
+            "amount": 1,
+            "ingredients": [
+              {
+                "item": "spectre_boots",
+                "amount": 1,
+                "ingredients": [
+                  {
+                    "item": "rocket_boots",
+                    "amount": 1,
+                    "ingredients": []
+                  },
+                  {
+                    "item": "hermes_boots",
+                    "amount": 1,
+                    "ingredients": []
+                  }
+                ]
+              },
+              {
+                "item": "aglet",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "anklet_of_the_wind",
+                "amount": 1,
+                "ingredients": []
+              }
+            ]
+          },
+          {
+            "item": "ice_skates",
+            "amount": 1,
+            "ingredients": []
+          }
+        ]
+      },
+      {
+        "item": "lava_waders",
+        "amount": 1,
+        "ingredients": [
+          {
+            "item": "obsidian_water_walking_boots",
+            "amount": 1,
+            "ingredients": [
+              {
+                "item": "water_walking_boots",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "obsidian_skull",
+                "amount": 1,
+                "ingredients": [
+                  {
+                    "item": "obsidian",
+                    "amount": 20,
+                    "ingredients": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "item": "molten_charm",
+            "amount": 1,
+            "ingredients": [
+              {
+                "item": "lava_charm",
+                "amount": 1,
+                "ingredients": []
+              },
+              {
+                "item": "obsidian_rose",
+                "amount": 1,
+                "ingredients": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
