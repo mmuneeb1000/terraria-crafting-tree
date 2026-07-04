@@ -19,8 +19,8 @@ function MapsList() {
 
   return (
     <div>
-      <h1 className="text-center mb-8 pb-8 border-b">Crafting Trees</h1>
-      <div className="flex flex-wrap gap-2 mb-4">
+      <h1 className="text-center mb-4 pb-8">Crafting Trees</h1>
+      <div className="flex flex-wrap justify-center gap-2 mb-4">
         {sortedItems.map((item) => (
           <div className="p-2 mb-4" key={item.id}>
             <Link

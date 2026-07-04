@@ -33,7 +33,7 @@ function TreeRender({ itemId, itemMap }) {
     const groupedIngredients = groupIngredients(node.ingredients);
 
     return (
-      <div key={node.item} className="flex items-center gap-4 ">
+      <div key={node.item} className="flex items-center  gap-4 ">
         <div className="w-46 shrink-0 rounded-lg border bg-background p-2">
           <div className="flex items-center gap-2">
             <img className="w-4" src={`../public/images/${node.item}.png`} />

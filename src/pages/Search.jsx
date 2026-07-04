@@ -27,7 +27,7 @@ function Search() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search items..."
-        className="border p-2 w-full mb-4"
+        className="border p-2 w-full mb-4 rounded-xl"
       />
       <MapsList />
       <h1 className="text-center mb-4"> All Items </h1>
