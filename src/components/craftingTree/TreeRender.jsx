@@ -86,7 +86,7 @@ function TreeRender({ itemId, itemMap }) {
 
   return (
     <section>
-      <h2 className="my-6 text-2xl font-bold">Crafting Tree</h2>
+      <h2 className="my-6 text-2xl text-center font-bold">Crafting Tree</h2>
       <div className="overflow-x-auto p-8">{renderNode(tree)}</div>
     </section>
   );
