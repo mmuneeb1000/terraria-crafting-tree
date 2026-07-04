@@ -1,7 +1,7 @@
 function ItemHeader({ id, item }) {
   return (
-    <section className="item-header">
-      <div className="flex justify-start align-center">
+    <section className="item-header mt-4">
+      <div className="flex justify-start items-center">
         <h3>{item.name} </h3>
         <img
           src={`../public/images/${id}.png`}

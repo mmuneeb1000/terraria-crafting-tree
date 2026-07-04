@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import recipes from "../../data/recipes.json";
-import TreeRender from "../craftingTree/TreeRender";
 
 function ItemRecipes({ itemId, itemMap }) {
   const itemRecipes = recipes[itemId];
@@ -10,9 +9,9 @@ function ItemRecipes({ itemId, itemMap }) {
     <section>
       <h2 className="text-xl font-bold my-4">Recipes</h2>
 
-      <div className="space-y-6 gap-5 grid grid-cols-3">
+      <div className="space-y-6 gap-5">
         {itemRecipes.map((recipe, index) => (
-          <div key={index} className="rounded-xl border p-4">
+          <div key={index} className="rounded-xl border p-4 text-sm">
             <p className="mb-4">
               <strong>Crafting Station:</strong> {recipe.station}
             </p>
@@ -20,7 +19,7 @@ function ItemRecipes({ itemId, itemMap }) {
             <div>
               <h3 className="font-semibold mb-2">Ingredients</h3>
 
-              <ul className="space-y-2">
+              <ul className="space-y-2 grid grid-cols-2">
                 {recipe.ingredients.map((ingredient) => {
                   return (
                     <li
@@ -37,7 +36,7 @@ function ItemRecipes({ itemId, itemMap }) {
 
                       <Link
                         to={`/item/${ingredient.item}`}
-                        className="hover:text-sky-400 hover:underline"
+                        className=" hover:text-sky-400 hover:underline"
                       >
                         {itemMap[ingredient.item]?.name}
                       </Link>
@@ -53,7 +52,6 @@ function ItemRecipes({ itemId, itemMap }) {
           </div>
         ))}
       </div>
-      <TreeRender itemId={itemId} itemMap={itemMap} />
     </section>
   );
 }

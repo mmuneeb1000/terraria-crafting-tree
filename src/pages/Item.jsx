@@ -4,6 +4,7 @@ import items from "../data/items.json";
 import ItemHeader from "../components/item/ItemHeader";
 import ItemInfo from "../components/item/ItemStats";
 import ItemRecipes from "../components/item/ItemRecipes";
+import TreeRender from "../components/craftingTree/TreeRender";
 
 function Item() {
   const { id } = useParams();
@@ -16,13 +17,16 @@ function Item() {
 
   return (
     <>
-      <ItemHeader item={item} id={id} />
+      <section className="grid grid-cols-2 gap-4">
+        <div className="flex flex-col">
+          <ItemHeader item={item} id={id} />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <ItemInfo item={item} />
-      </div>
+          <ItemInfo item={item} />
+        </div>
 
-      <ItemRecipes itemId={id} itemMap={items} />
+        <ItemRecipes itemId={id} itemMap={items} />
+      </section>
+      <TreeRender itemId={id} itemMap={items} />
     </>
   );
 }
