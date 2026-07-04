@@ -1,14 +1,21 @@
 import { Link } from "react-router-dom";
 import recipes from "../../data/recipes.json";
+import images from "../../utils/imageMap";
 
 function ItemRecipes({ itemId, itemMap }) {
   const itemRecipes = recipes[itemId];
+  const toImageKey = (name) =>
+    name
+      .toLowerCase()
+      .replace(/'/g, "")
+      .replace(/&/g, "and")
+      .replace(/\s+/g, "_");
 
   if (!itemRecipes?.length) return null;
 
   return (
-    <section className="mt-8">
-      <h2 className="text-2xl font-bold mb-4">Recipes</h2>
+    <section>
+      <h2 className="text-xl font-bold mb-4">Recipes</h2>
 
       <div className="space-y-6">
         {itemRecipes.map((recipe, index) => (
@@ -21,23 +28,29 @@ function ItemRecipes({ itemId, itemMap }) {
               <h3 className="font-semibold mb-2">Ingredients</h3>
 
               <ul className="space-y-2">
-                {recipe.ingredients.map((ingredient) => (
-                  <li key={ingredient.item} className="flex items-center gap-3">
-                    <img
-                      src={`../../assets/images/${ingredient.item}.png`}
-                      alt=""
-                      className="w-8 h-8"
-                    />
-
-                    <span>{ingredient.amount}×</span>
-                    <Link
-                      to={`/item/${ingredient.item}`}
-                      className="hover:text-sky-400 hover:underline"
+                {recipe.ingredients.map((ingredient) => {
+                  return (
+                    <li
+                      key={ingredient.item}
+                      className="flex items-center gap-3"
                     >
-                      <span>{itemMap[ingredient.item]?.name}</span>
-                    </Link>
-                  </li>
-                ))}
+                      <img
+                        src={images[itemMap[ingredient.item]?.name]}
+                        alt={itemMap[ingredient.item]?.name}
+                        className="w-8 h-8"
+                      />
+
+                      <span>{ingredient.amount}×</span>
+
+                      <Link
+                        to={`/item/${ingredient.item}`}
+                        className="hover:text-sky-400 hover:underline"
+                      >
+                        {itemMap[ingredient.item]?.name}
+                      </Link>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 
