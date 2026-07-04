@@ -34,8 +34,9 @@ function TreeRender({ itemId, itemMap }) {
 
     return (
       <div key={node.item} className="flex items-center gap-4 ">
-        <div className="w-36 shrink-0 rounded-lg border bg-background p-2">
+        <div className="w-46 shrink-0 rounded-lg border bg-background p-2">
           <div className="flex items-center gap-2">
+            <img className="w-4" src={`../public/images/${node.item}.png`} />
             <span className="font-medium text-[12px] text-indigo">
               {node.amount}×
             </span>

@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import Fuse from "fuse.js";
 import search from "../data/search.json";
+import MapsList from "./MapsList";
 
 function Search() {
   const [query, setQuery] = useState("");
@@ -22,16 +23,15 @@ function Search() {
 
   return (
     <div className="p-4">
-      <h1 className="text-center">Search</h1>
-
       <input
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search items..."
         className="border p-2 w-full mb-4"
       />
-
-      <div className="flex flex-wrap gap-4">
+      <MapsList />
+      <h1 className="text-center mb-4"> All Items </h1>
+      <div className="flex flex-wrap justify-center gap-4">
         {results.map((item) => (
           <Link
             key={item.id}

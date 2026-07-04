@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="flex gap-4">
-      <Link to="/" className="hover:underline">
+    <nav className="flex gap-4 mx-2">
+      <Link to="/" className="hover:underline ">
         Home
       </Link>
       <Link to="/item" className="hover:underline">
@@ -12,7 +12,6 @@ function Navbar() {
       <Link to="/recipes" className="hover:underline">
         Recipes
       </Link>
-
       <Link to="/search" className="hover:underline">
         Search
       </Link>

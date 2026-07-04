@@ -6,9 +6,10 @@ function Header() {
   return (
     <header className="border-b w-full bg-surface">
       <div className="p-4 flex items-center justify-between">
-        <div className="text-xl font-bold">
-          <a href="#">
+        <div className=" text-xl font-bold">
+          <a className="flex items-center gap-2" href="/search">
             <img className="w-20" src={Sitelogo} />
+            <h2>Terraria Recipes</h2>
           </a>
         </div>
 
