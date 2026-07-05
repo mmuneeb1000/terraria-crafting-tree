@@ -13,12 +13,12 @@ function ItemList() {
     <div>
       <h1 className="text-center mb-8 pb-8 border-b">Items</h1>
 
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap justify-center gap-1">
         {sortedItems.map((item) => (
-          <div className="p-2" key={item.id}>
+          <div className="p-1 " key={item.id}>
             <Link
               to={`/item/${item.id}`}
-              className="border p-2 rounded-xl hover:bg-gray-100"
+              className="border p-1 bg-background rounded-l hover:bg-gray-100"
             >
               {item.name}
             </Link>

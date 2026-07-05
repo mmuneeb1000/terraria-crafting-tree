@@ -19,13 +19,13 @@ function MapsList() {
 
   return (
     <div>
-      <h1 className="text-center mb-4 pb-8">Crafting Trees</h1>
-      <div className="flex flex-wrap justify-center gap-2 mb-4">
+      <h1 className="text-center pb-3">Crafting Trees</h1>
+      <div className="flex flex-wrap justify-center mb-4">
         {sortedItems.map((item) => (
           <div className="p-2 mb-4" key={item.id}>
             <Link
               to={`/item/${item.id}`}
-              className="border text-white font-semibold bg-primary p-4 rounded-xl hover:bg-primary-hover"
+              className="border-2 border-dashed border-accent text-white font-semibold bg-primary p-2 rounded-xl hover:bg-primary-hover"
             >
               {item.name}
             </Link>

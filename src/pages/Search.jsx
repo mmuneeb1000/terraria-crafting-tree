@@ -26,7 +26,7 @@ function Search() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search items..."
-        className="border p-2 w-full mb-4 rounded-xl"
+        className="border-2 border-dashed border-accent bg-background p-2 w-full mb-4 rounded-xl placeholder:text-text"
       />
 
       <h1 className="text-center mb-4"> All Items </h1>
@@ -35,7 +35,7 @@ function Search() {
           <Link
             key={item.id}
             to={`/item/${item.id}`}
-            className="border p-2 rounded-xl hover:bg-gray-100"
+            className="border-2 border-dashed border-accent p-2 bg-background rounded-xl hover:bg-gray-100"
           >
             <div className="flex">{item.name}</div>
           </Link>
