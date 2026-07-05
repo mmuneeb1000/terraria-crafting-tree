@@ -1,5 +1,10 @@
+import MapsList from "./MapsList";
 function Home() {
-  return <h1>This is Home of Terraria Crafting Tree</h1>;
+  return (
+    <>
+      <MapsList />
+    </>
+  );
 }
 
 export default Home;

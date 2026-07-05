@@ -4675,60 +4675,6 @@
           "amount": 1
         }
       ]
-    },
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "any_cloud_balloon",
-          "amount": 1
-        },
-        {
-          "item": "any_sandstorm_balloon",
-          "amount": 1
-        },
-        {
-          "item": "white_horseshoe_balloon",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "any_blizzard_balloon",
-          "amount": 1
-        },
-        {
-          "item": "any_sandstorm_balloon",
-          "amount": 1
-        },
-        {
-          "item": "blue_horseshoe_balloon",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "any_blizzard_balloon",
-          "amount": 1
-        },
-        {
-          "item": "any_cloud_balloon",
-          "amount": 1
-        },
-        {
-          "item": "yellow_horseshoe_balloon",
-          "amount": 1
-        }
-      ]
     }
   ],
   "bunny_stew": [
