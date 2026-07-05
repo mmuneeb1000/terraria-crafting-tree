@@ -37,7 +37,7 @@ function Search() {
             to={`/item/${item.id}`}
             className="border p-2 rounded-xl hover:bg-gray-100"
           >
-            {item.name}
+            <div className="flex">{item.name}</div>
           </Link>
         ))}
       </div>

@@ -55423,22 +55423,7 @@
     "stack": 1,
     "value": 0
   },
-  "a_horrible_night_for_alchemy": {
-    "id": "a_horrible_night_for_alchemy",
-    "name": "A Horrible Night for Alchemy",
-    "rare": 0,
-    "buy": 0,
-    "sell": 1000,
-    "tooltip": "'W. Black'",
-    "hardmode": false,
-    "expert": false,
-    "master": false,
-    "material": false,
-    "consumable": false,
-    "quest": false,
-    "stack": 1,
-    "value": 0
-  },
+
   "morning_hunt": {
     "id": "morning_hunt",
     "name": "Morning Hunt",
@@ -55535,22 +55520,7 @@
     "stack": 1,
     "value": 0
   },
-  "a_machine_for_terrarians": {
-    "id": "a_machine_for_terrarians",
-    "name": "A Machine for Terrarians",
-    "rare": 0,
-    "buy": 0,
-    "sell": 1000,
-    "tooltip": "'J. Witzig'",
-    "hardmode": true,
-    "expert": false,
-    "master": false,
-    "material": false,
-    "consumable": false,
-    "quest": false,
-    "stack": 1,
-    "value": 0
-  },
+
   "terra_blade_chronicles": {
     "id": "terra_blade_chronicles",
     "name": "Terra Blade Chronicles",
