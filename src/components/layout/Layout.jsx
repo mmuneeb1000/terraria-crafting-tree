@@ -8,7 +8,7 @@ function Layout() {
     <>
       <div className="bg-background min-h-screen mx-auto flex flex-col items-center justify-center">
         <Header />
-        <main className="bg-surface flex-1 container mx-auto w-1050 p-6">
+        <main className="bg-surface border-x-2 border-dashed border-accent flex-1 container mx-auto w-1050 p-6">
           <Outlet />
         </main>
         <Footer />
