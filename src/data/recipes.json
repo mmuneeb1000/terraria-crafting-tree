@@ -23647,16 +23647,6 @@
         {
           "item": "water_walking_boots",
           "amount": 1
-        }
-      ]
-    },
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "molten_skull_rose",
-          "amount": 1
         },
         {
           "item": "obsidian_water_walking_boots",
@@ -23664,24 +23654,7 @@
         }
       ]
     },
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "molten_charm",
-          "amount": 1
-        },
-        {
-          "item": "obsidian_rose",
-          "amount": 1
-        },
-        {
-          "item": "obsidian_water_walking_boots",
-          "amount": 1
-        }
-      ]
-    },
+
     {
       "station": "Tinkerer's Workshop",
       "amount": 1,
@@ -23696,6 +23669,10 @@
         },
         {
           "item": "water_walking_boots",
+          "amount": 1
+        },
+        {
+          "item": "obsidian_water_walking_boots",
           "amount": 1
         }
       ]
