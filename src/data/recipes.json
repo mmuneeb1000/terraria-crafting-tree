@@ -595,22 +595,7 @@
       ]
     }
   ],
-  "amphibian_boots": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "frog_leg",
-          "amount": 1
-        },
-        {
-          "item": "sailfish_boots",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "ancient_cobalt_helmet": [
     {
       "station": "Shimmer",
@@ -1167,70 +1152,6 @@
       ]
     }
   ],
-  "angler_tackle_bag": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "angler_earring",
-          "amount": 1
-        },
-        {
-          "item": "high_test_fishing_line",
-          "amount": 1
-        },
-        {
-          "item": "tackle_box",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "ankh_charm": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "armor_bracing",
-          "amount": 1
-        },
-        {
-          "item": "countercurse_mantra",
-          "amount": 1
-        },
-        {
-          "item": "medicated_bandage",
-          "amount": 1
-        },
-        {
-          "item": "reflective_shades",
-          "amount": 1
-        },
-        {
-          "item": "the_plan",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "ankh_shield": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "ankh_charm",
-          "amount": 1
-        },
-        {
-          "item": "obsidian_shield",
-          "amount": 1
-        }
-      ]
-    }
-  ],
   "announcement_box": [
     {
       "station": "Iron Anvil",
@@ -1350,46 +1271,6 @@
         },
         {
           "item": "lens",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "architect_gizmo_pack": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "brick_layer",
-          "amount": 1
-        },
-        {
-          "item": "extendo_grip",
-          "amount": 1
-        },
-        {
-          "item": "paint_sprayer",
-          "amount": 1
-        },
-        {
-          "item": "portable_cement_mixer",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "arctic_diving_gear": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "ice_skates",
-          "amount": 1
-        },
-        {
-          "item": "jellyfish_diving_gear",
           "amount": 1
         }
       ]
@@ -1645,42 +1526,7 @@
       ]
     }
   ],
-  "avenger_emblem": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "soul_of_fright",
-          "amount": 5
-        },
-        {
-          "item": "soul_of_might",
-          "amount": 5
-        },
-        {
-          "item": "soul_of_sight",
-          "amount": 5
-        },
-        {
-          "item": "summoner_emblem",
-          "amount": 1
-        },
-        {
-          "item": "sorcerer_emblem",
-          "amount": 1
-        },
-        {
-          "item": "ranger_emblem",
-          "amount": 1
-        },
-        {
-          "item": "warrior_emblem",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "axe_of_regrowth": [
     {
       "station": "Work Bench",
@@ -3257,22 +3103,6 @@
       ]
     }
   ],
-  "berserkers_glove": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "flesh_knuckles",
-          "amount": 1
-        },
-        {
-          "item": "power_glove",
-          "amount": 1
-        }
-      ]
-    }
-  ],
   "bewitching_table": [
     {
       "station": "Shimmer",
@@ -3445,22 +3275,6 @@
         {
           "item": "vicious_powder",
           "amount": 30
-        }
-      ]
-    }
-  ],
-  "blue_horseshoe_balloon": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "cloud_in_a_balloon",
-          "amount": 1
-        },
-        {
-          "item": "lucky_horseshoe",
-          "amount": 1
         }
       ]
     }
@@ -4614,64 +4428,6 @@
         },
         {
           "item": "shiverthorn",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "bundle_of_balloons": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "blizzard_in_a_balloon",
-          "amount": 1
-        },
-        {
-          "item": "cloud_in_a_balloon",
-          "amount": 1
-        },
-        {
-          "item": "sandstorm_in_a_balloon",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "bundle_of_horseshoe_balloons": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "blizzard_in_a_balloon",
-          "amount": 1
-        },
-        {
-          "item": "cloud_in_a_balloon",
-          "amount": 1
-        },
-        {
-          "item": "lucky_horseshoe",
-          "amount": 1
-        },
-        {
-          "item": "sandstorm_in_a_balloon",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "bundle_of_balloons",
-          "amount": 1
-        },
-        {
-          "item": "lucky_horseshoe",
           "amount": 1
         }
       ]
@@ -7735,22 +7491,7 @@
       ]
     }
   ],
-  "celestial_cuffs": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "celestial_magnet",
-          "amount": 1
-        },
-        {
-          "item": "magic_cuffs",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "celestial_emblem": [
     {
       "station": "Tinkerer's Workshop",
@@ -7762,22 +7503,6 @@
         },
         {
           "item": "celestial_magnet",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "celestial_shell": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "celestial_stone",
-          "amount": 1
-        },
-        {
-          "item": "moon_shell",
           "amount": 1
         }
       ]
@@ -7803,42 +7528,6 @@
         {
           "item": "vortex_fragment",
           "amount": 12
-        }
-      ]
-    }
-  ],
-  "celestial_stone": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "moon_stone",
-          "amount": 1
-        },
-        {
-          "item": "sun_stone",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "cell_phone": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "magic_mirror",
-          "amount": 1
-        },
-        {
-          "item": "ice_mirror",
-          "amount": 1
-        },
-        {
-          "item": "pda",
-          "amount": 1
         }
       ]
     }
@@ -9207,22 +8896,6 @@
       ]
     }
   ],
-  "charm_of_myths": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "band_of_regeneration",
-          "amount": 1
-        },
-        {
-          "item": "philosophers_stone",
-          "amount": 1
-        }
-      ]
-    }
-  ],
   "chest_lock": [
     {
       "station": "Iron Anvil",
@@ -10521,22 +10194,6 @@
       ]
     }
   ],
-  "coin_ring": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "gold_ring",
-          "amount": 1
-        },
-        {
-          "item": "lucky_coin",
-          "amount": 1
-        }
-      ]
-    }
-  ],
   "copper_coin": [
     {
       "station": "By Hand",
@@ -10727,28 +10384,7 @@
       ]
     }
   ],
-  "copper_bar": [
-    {
-      "station": "Chlorophyte Extractinator",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "tin_bar",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "station": "Furnace",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "copper_ore",
-          "amount": 3
-        }
-      ]
-    }
-  ],
+
   "copper_bow": [
     {
       "station": "Iron Anvil",
@@ -11932,22 +11568,6 @@
       "ingredients": [
         {
           "item": "desert_fossil",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "destroyer_emblem": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "avenger_emblem",
-          "amount": 1
-        },
-        {
-          "item": "eye_of_the_golem",
           "amount": 1
         }
       ]
@@ -13263,38 +12883,7 @@
       ]
     }
   ],
-  "drill_containment_unit": [
-    {
-      "station": "Mythril Anvil",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "chlorophyte_bar",
-          "amount": 40
-        },
-        {
-          "item": "hellstone_bar",
-          "amount": 40
-        },
-        {
-          "item": "luminite_bar",
-          "amount": 40
-        },
-        {
-          "item": "meteorite_bar",
-          "amount": 40
-        },
-        {
-          "item": "shroomite_bar",
-          "amount": 40
-        },
-        {
-          "item": "spectre_bar",
-          "amount": 40
-        }
-      ]
-    }
-  ],
+
   "blue_brick_wall": [
     {
       "station": "Heavy Work Bench",
@@ -15335,22 +14924,6 @@
       ]
     }
   ],
-  "fairy_boots": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "flower_boots",
-          "amount": 1
-        },
-        {
-          "item": "spectre_boots",
-          "amount": 1
-        }
-      ]
-    }
-  ],
   "pink_fairy_jar": [
     {
       "station": "By Hand",
@@ -15643,22 +15216,7 @@
       ]
     }
   ],
-  "fire_gauntlet": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "magma_stone",
-          "amount": 1
-        },
-        {
-          "item": "mechanical_glove",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "fireplace": [
     {
       "station": "Work Bench",
@@ -15751,26 +15309,7 @@
       ]
     }
   ],
-  "fish_finder": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "fishermans_pocket_guide",
-          "amount": 1
-        },
-        {
-          "item": "sextant",
-          "amount": 1
-        },
-        {
-          "item": "weather_radio",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "fishermans_pocket_guide": [
     {
       "station": "Shimmer",
@@ -16945,22 +16484,7 @@
       ]
     }
   ],
-  "frostspark_boots": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "ice_skates",
-          "amount": 1
-        },
-        {
-          "item": "lightning_boots",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "frozen_banana_daiquiri": [
     {
       "station": "Cooking Pot",
@@ -17004,22 +16528,6 @@
       "ingredients": [
         {
           "item": "boreal_crate",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "frozen_shield": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "frozen_turtle_shell",
-          "amount": 1
-        },
-        {
-          "item": "paladins_shield",
           "amount": 1
         }
       ]
@@ -18161,26 +17669,7 @@
       ]
     }
   ],
-  "goblin_tech": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "dps_meter",
-          "amount": 1
-        },
-        {
-          "item": "metal_detector",
-          "amount": 1
-        },
-        {
-          "item": "stopwatch",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "goggles": [
     {
       "station": "Work Bench and Chair",
@@ -18843,30 +18332,7 @@
       ]
     }
   ],
-  "gps": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "compass",
-          "amount": 1
-        },
-        {
-          "item": "depth_meter",
-          "amount": 1
-        },
-        {
-          "item": "platinum_watch",
-          "amount": 1
-        },
-        {
-          "item": "gold_watch",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "grandfather_clock": [
     {
       "station": "Sawmill",
@@ -19841,22 +19307,7 @@
       ]
     }
   ],
-  "greedy_ring": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "coin_ring",
-          "amount": 1
-        },
-        {
-          "item": "discount_card",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "green_horseshoe_balloon": [
     {
       "station": "Tinkerer's Workshop",
@@ -20117,30 +19568,7 @@
       ]
     }
   ],
-  "hand_of_creation": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "ancient_chisel",
-          "amount": 1
-        },
-        {
-          "item": "architect_gizmo_pack",
-          "amount": 1
-        },
-        {
-          "item": "step_stool",
-          "amount": 1
-        },
-        {
-          "item": "treasure_magnet",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "hanging_brazier": [
     {
       "station": "By Hand",
@@ -20774,22 +20202,6 @@
       "ingredients": [
         {
           "item": "can_of_worms",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "hero_shield": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "flesh_knuckles",
-          "amount": 1
-        },
-        {
-          "item": "paladins_shield",
           "amount": 1
         }
       ]
@@ -23635,67 +23047,7 @@
       ]
     }
   ],
-  "lava_waders": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "molten_skull_rose",
-          "amount": 1
-        },
-        {
-          "item": "water_walking_boots",
-          "amount": 1
-        },
-        {
-          "item": "obsidian_water_walking_boots",
-          "amount": 1
-        }
-      ]
-    },
 
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "molten_charm",
-          "amount": 1
-        },
-        {
-          "item": "obsidian_rose",
-          "amount": 1
-        },
-        {
-          "item": "water_walking_boots",
-          "amount": 1
-        },
-        {
-          "item": "obsidian_water_walking_boots",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "lava_charm",
-          "amount": 1
-        },
-        {
-          "item": "obsidian_rose",
-          "amount": 1
-        },
-        {
-          "item": "obsidian_water_walking_boots",
-          "amount": 1
-        }
-      ]
-    }
-  ],
   "obsidian_wall": [
     {
       "station": "Work Bench and Ecto Mist",
@@ -23806,22 +23158,7 @@
       ]
     }
   ],
-  "lavaproof_tackle_bag": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "angler_tackle_bag",
-          "amount": 1
-        },
-        {
-          "item": "lavaproof_fishing_hook",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "lead_armor": [
     {
       "station": "Iron Anvil",
@@ -24250,26 +23587,7 @@
       ]
     }
   ],
-  "lightning_boots": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "aglet",
-          "amount": 1
-        },
-        {
-          "item": "anklet_of_the_wind",
-          "amount": 1
-        },
-        {
-          "item": "spectre_boots",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "lihzahrd_brick": [
     {
       "station": "By Hand",
@@ -25072,30 +24390,7 @@
       ]
     }
   ],
-  "magic_mirror": [
-    {
-      "station": "Furnace",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "diamond",
-          "amount": 3
-        },
-        {
-          "item": "glass",
-          "amount": 10
-        },
-        {
-          "item": "gold_bar",
-          "amount": 8
-        },
-        {
-          "item": "platinum_bar",
-          "amount": 8
-        }
-      ]
-    }
-  ],
+
   "magic_power_potion": [
     {
       "station": "Placed Bottle",
@@ -25192,22 +24487,7 @@
       ]
     }
   ],
-  "magnet_flower": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "celestial_magnet",
-          "amount": 1
-        },
-        {
-          "item": "mana_flower",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "maid_bonnet": [
     {
       "station": "Loom",
@@ -25268,22 +24548,7 @@
       ]
     }
   ],
-  "mana_cloak": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "mana_flower",
-          "amount": 1
-        },
-        {
-          "item": "star_cloak",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "mana_crystal": [
     {
       "station": "By Hand",
@@ -25480,26 +24745,7 @@
       ]
     }
   ],
-  "master_ninja_gear": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "black_belt",
-          "amount": 1
-        },
-        {
-          "item": "tabi",
-          "amount": 1
-        },
-        {
-          "item": "tiger_climbing_gear",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "mechanical_eye": [
     {
       "station": "Mythril Anvil",
@@ -25520,22 +24766,7 @@
       ]
     }
   ],
-  "mechanical_glove": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "avenger_emblem",
-          "amount": 1
-        },
-        {
-          "item": "power_glove",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "mechanical_skull": [
     {
       "station": "Mythril Anvil",
@@ -26300,42 +25531,7 @@
       ]
     }
   ],
-  "molten_quiver": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "magic_quiver",
-          "amount": 1
-        },
-        {
-          "item": "magma_stone",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "molten_skull_rose": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "lava_charm",
-          "amount": 1
-        },
-        {
-          "item": "magma_skull",
-          "amount": 1
-        },
-        {
-          "item": "obsidian_skull_rose",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "vortex_monolith": [
     {
       "station": "Ancient Manipulator",
@@ -26424,22 +25620,7 @@
       ]
     }
   ],
-  "moon_shell": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "moon_charm",
-          "amount": 1
-        },
-        {
-          "item": "neptunes_shell",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "green_moss": [
     {
       "station": "Work Bench",
@@ -27530,34 +26711,7 @@
       ]
     }
   ],
-  "nights_edge": [
-    {
-      "station": "Demon Altar",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "blade_of_grass",
-          "amount": 1
-        },
-        {
-          "item": "blood_butcherer",
-          "amount": 1
-        },
-        {
-          "item": "lights_bane",
-          "amount": 1
-        },
-        {
-          "item": "muramasa",
-          "amount": 1
-        },
-        {
-          "item": "volcano",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "nightmare_pickaxe": [
     {
       "station": "Iron Anvil",
@@ -27758,22 +26912,7 @@
       ]
     }
   ],
-  "obsidian_shield": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "cobalt_shield",
-          "amount": 1
-        },
-        {
-          "item": "obsidian_skull",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "obsidian_skin_potion": [
     {
       "station": "Placed Bottle",
@@ -27810,38 +26949,7 @@
       ]
     }
   ],
-  "obsidian_skull_rose": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "obsidian_rose",
-          "amount": 1
-        },
-        {
-          "item": "obsidian_skull",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "obsidian_water_walking_boots": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "obsidian_skull",
-          "amount": 1
-        },
-        {
-          "item": "water_walking_boots",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "ocean_crate": [
     {
       "station": "Shimmer",
@@ -28754,30 +27862,7 @@
       ]
     }
   ],
-  "pda": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "fish_finder",
-          "amount": 1
-        },
-        {
-          "item": "gps",
-          "amount": 1
-        },
-        {
-          "item": "goblin_tech",
-          "amount": 1
-        },
-        {
-          "item": "r_e_k_3000",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "peace_candle": [
     {
       "station": "Work Bench",
@@ -30114,22 +29199,7 @@
       ]
     }
   ],
-  "pink_horseshoe_balloon": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "lucky_horseshoe",
-          "amount": 1
-        },
-        {
-          "item": "sharkron_balloon",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "pink_maid_bonnet": [
     {
       "station": "Loom",
@@ -31256,22 +30326,7 @@
       ]
     }
   ],
-  "power_glove": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "feral_claws",
-          "amount": 1
-        },
-        {
-          "item": "titan_glove",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "iron_anvil": [
     {
       "station": "Work Bench",
@@ -31596,26 +30651,7 @@
       ]
     }
   ],
-  "r_e_k_3000": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "lifeform_analyzer",
-          "amount": 1
-        },
-        {
-          "item": "radar",
-          "amount": 1
-        },
-        {
-          "item": "tally_counter",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "blacksmith_rack": [
     {
       "station": "Sawmill",
@@ -31812,22 +30848,7 @@
       ]
     }
   ],
-  "recon_scope": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "putrid_scent",
-          "amount": 1
-        },
-        {
-          "item": "sniper_scope",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "red_brick": [
     {
       "station": "Furnace",
@@ -33296,26 +32317,7 @@
       ]
     }
   ],
-  "shellphone": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "cell_phone",
-          "amount": 1
-        },
-        {
-          "item": "demon_conch",
-          "amount": 1
-        },
-        {
-          "item": "magic_conch",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "shifting_pearlsands_dye": [
     {
       "station": "Dye Vat",
@@ -34870,22 +33872,7 @@
       ]
     }
   ],
-  "sniper_scope": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "destroyer_emblem",
-          "amount": 1
-        },
-        {
-          "item": "rifle_scope",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "snow_block": [
     {
       "station": "Shimmer",
@@ -35926,34 +34913,7 @@
       ]
     }
   ],
-  "spectre_boots": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "hermes_boots",
-          "amount": 1
-        },
-        {
-          "item": "dunerider_boots",
-          "amount": 1
-        },
-        {
-          "item": "sailfish_boots",
-          "amount": 1
-        },
-        {
-          "item": "flurry_boots",
-          "amount": 1
-        },
-        {
-          "item": "rocket_boots",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "spectre_hamaxe": [
     {
       "station": "Mythril Anvil",
@@ -36440,22 +35400,7 @@
       ]
     }
   ],
-  "stalkers_quiver": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "magic_quiver",
-          "amount": 1
-        },
-        {
-          "item": "putrid_scent",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "star_cannon": [
     {
       "station": "Iron Anvil",
@@ -39082,38 +38027,7 @@
       ]
     }
   ],
-  "terra_blade": [
-    {
-      "station": "Mythril Anvil",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "broken_hero_sword",
-          "amount": 1
-        },
-        {
-          "item": "true_excalibur",
-          "amount": 1
-        },
-        {
-          "item": "true_nights_edge",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "terraformer": [
-    {
-      "station": "Shimmer",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "clentaminator",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "terrarium": [
     {
       "station": "Furnace",
@@ -39126,22 +38040,7 @@
       ]
     }
   ],
-  "terraspark_boots": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "frostspark_boots",
-          "amount": 1
-        },
-        {
-          "item": "lava_waders",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "the_breaker": [
     {
       "station": "Iron Anvil",
@@ -39158,30 +38057,7 @@
       ]
     }
   ],
-  "the_grand_design": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "mechanical_lens",
-          "amount": 1
-        },
-        {
-          "item": "mechanical_ruler",
-          "amount": 1
-        },
-        {
-          "item": "multicolor_wrench",
-          "amount": 1
-        },
-        {
-          "item": "wire",
-          "amount": 60
-        }
-      ]
-    }
-  ],
+
   "the_meatball": [
     {
       "station": "Iron Anvil",
@@ -39606,28 +38482,7 @@
       ]
     }
   ],
-  "tin_bar": [
-    {
-      "station": "Chlorophyte Extractinator",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "copper_bar",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "station": "Furnace",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "tin_ore",
-          "amount": 3
-        }
-      ]
-    }
-  ],
+
   "tin_bow": [
     {
       "station": "Iron Anvil",
@@ -42066,46 +40921,7 @@
       ]
     }
   ],
-  "true_excalibur": [
-    {
-      "station": "Mythril Anvil",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "chlorophyte_bar",
-          "amount": 24
-        },
-        {
-          "item": "excalibur",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "true_nights_edge": [
-    {
-      "station": "Mythril Anvil",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "nights_edge",
-          "amount": 1
-        },
-        {
-          "item": "soul_of_fright",
-          "amount": 20
-        },
-        {
-          "item": "soul_of_might",
-          "amount": 20
-        },
-        {
-          "item": "soul_of_sight",
-          "amount": 20
-        }
-      ]
-    }
-  ],
+
   "tungsten_armor": [
     {
       "station": "Iron Anvil",
@@ -43086,22 +41902,7 @@
       ]
     }
   ],
-  "white_horseshoe_balloon": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "blizzard_in_a_balloon",
-          "amount": 1
-        },
-        {
-          "item": "lucky_horseshoe",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "whoopie_cushion": [
     {
       "station": "Shimmer",
@@ -44200,110 +43001,7 @@
       ]
     }
   ],
-  "yellow_horseshoe_balloon": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "lucky_horseshoe",
-          "amount": 1
-        },
-        {
-          "item": "sandstorm_in_a_balloon",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "yoyo_bag": [
-    {
-      "station": "Tinkerer's Workshop",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "black_counterweight",
-          "amount": 1
-        },
-        {
-          "item": "blue_counterweight",
-          "amount": 1
-        },
-        {
-          "item": "green_counterweight",
-          "amount": 1
-        },
-        {
-          "item": "purple_counterweight",
-          "amount": 1
-        },
-        {
-          "item": "red_counterweight",
-          "amount": 1
-        },
-        {
-          "item": "yellow_counterweight",
-          "amount": 1
-        },
-        {
-          "item": "white_string",
-          "amount": 1
-        },
-        {
-          "item": "yoyo_glove",
-          "amount": 1
-        }
-      ]
-    }
-  ],
-  "zenith": [
-    {
-      "station": "Mythril Anvil",
-      "amount": 1,
-      "ingredients": [
-        {
-          "item": "bee_keeper",
-          "amount": 1
-        },
-        {
-          "item": "copper_shortsword",
-          "amount": 1
-        },
-        {
-          "item": "enchanted_sword",
-          "amount": 1
-        },
-        {
-          "item": "influx_waver",
-          "amount": 1
-        },
-        {
-          "item": "meowmere",
-          "amount": 1
-        },
-        {
-          "item": "seedler",
-          "amount": 1
-        },
-        {
-          "item": "star_wrath",
-          "amount": 1
-        },
-        {
-          "item": "starfury",
-          "amount": 1
-        },
-        {
-          "item": "terra_blade",
-          "amount": 1
-        },
-        {
-          "item": "the_horsemans_blade",
-          "amount": 1
-        }
-      ]
-    }
-  ],
+
   "ash_wood_breasplate": [
     {
       "station": "Work Bench",

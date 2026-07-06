@@ -22,11 +22,16 @@ function MapsList() {
       <h1 className="text-center pb-3">Crafting Trees</h1>
       <div className="flex flex-wrap justify-center mb-4">
         {sortedItems.map((item) => (
-          <div className="p-2 mb-4" key={item.id}>
+          <div className="flex items-center p-3" key={item.id}>
             <Link
               to={`/item/${item.id}`}
               className="border-2 border-dashed border-accent text-white font-semibold bg-primary p-2 rounded-xl hover:bg-primary-hover"
             >
+              <img
+                src={`../public/images/${item.id}.png`}
+                alt={item.name}
+                className="inline-block w-6"
+              />
               {item.name}
             </Link>
           </div>
