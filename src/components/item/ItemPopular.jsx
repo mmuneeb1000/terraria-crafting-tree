@@ -1,30 +1,24 @@
 import { Link } from "react-router-dom";
 
-function Popular({ title = "Popular Items", items = [] }) {
-  if (!items.length) return null;
-
+function ItemPopular({ title = "Popular Items", items = [] }) {
   return (
-    <section className="py-10">
-      <div className="mb-6 flex items-center justify-between">
-        <h2 className="text-2xl font-bold text-white">{title}</h2>
-      </div>
+    <section>
+      <h2 className="mb-6 text-center text-2xl font-bold">{title}</h2>
 
-      <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 p-6">
+      <div className="w-250 gap-4 mb-6 mx-auto justify-items-center grid grid-cols-2  sm:grid-cols-3 lg:grid-cols-5">
         {items.map((item) => (
           <Link
             key={item.id}
             to={`/item/${item.id}`}
-            className="group flex flex-col items-center rounded-xl border border-neutral-800 bg-background p-3 transition-all duration-200 hover:-translate-y-1 hover:border-green"
+            className="group w-48 rounded-lg border-2 border-accent bg-background p-2 transition hover:border-primary"
           >
             <img
-              src={`../public/images/${item.id}.png`}
+              src={`/images/${item.id}.png`}
               alt={item.name}
-              className="mb-4 h-6 w-6 object-contain transition-transform duration-200 group-hover:scale-110"
+              className="mx-auto mb-3 h-6 w-6 object-contain"
             />
 
-            <h4 className="text-center text-sm font-medium text-indigo transition-colors group-hover:text-green">
-              {item.name}
-            </h4>
+            <h4 className="text-center font-medium">{item.name}</h4>
           </Link>
         ))}
       </div>
@@ -32,4 +26,4 @@ function Popular({ title = "Popular Items", items = [] }) {
   );
 }
 
-export default Popular;
+export default ItemPopular;

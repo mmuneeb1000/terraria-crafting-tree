@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import HeroImg from "../assets/ui/terraria-hero-section.jpg";
 import TreeList from "./TreeList";
-import Popular from "../components/item/ItemPopular";
-import popularItems from "../data/popular.json";
+import ItemPopular from "../components/item/ItemPopular";
+import popular from "../data/popular.json";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
         <img
           src={HeroImg}
           alt="Terraria landscape"
-          className="absolute  inset-0 h-200 w-full object-cover"
+          className="absolute inset-0 h-200 w-full object-cover"
         />
 
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/40 to-background" />
@@ -69,7 +69,7 @@ function Home() {
         <TreeList />
       </section>
       <section>
-        <Popular title="Popular Crafting Items" items={popularItems} />
+        <ItemPopular title="Popular Items" items={popular} />
       </section>
     </>
   );

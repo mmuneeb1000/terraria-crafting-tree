@@ -1,25 +1,19 @@
 import TreeNav from "../components/craftingTree/TreeNav";
 import SearchBar from "../components/search/SearchBar";
 import tree from "../data/tree.json";
-
-function formatName(id) {
-  return id
-    .split("_")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-}
+import itemsData from "../data/items.json";
 
 const items = Object.entries(tree)
   .map(([id, item]) => ({
     id,
     ...item,
-    name: formatName(item.item ?? id),
+    name: itemsData[id]?.name ?? item.item ?? id,
   }))
   .sort((a, b) => a.name.localeCompare(b.name));
 
 function TreeList() {
   return (
-    <section className="flex flex-col gap-4 p-6">
+    <section className="flex flex-col gap-4 p-10">
       <SearchBar
         data={items}
         keys={["name"]}

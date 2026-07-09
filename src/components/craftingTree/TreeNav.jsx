@@ -9,11 +9,11 @@ function TreeNav({ items }) {
           <Link
             key={item.id}
             to={`/item/${item.id}`}
-            className="flex flex-nowrap gap-4 items-center w-75 h-14 border border-accent text-black font-semibold 
-          bg-background p-2 rounded-xl hover:bg-primary-hover"
+            className="flex flex-nowrap gap-4 items-center w-75 h-16 border-2 border-accent text-black font-semibold 
+          bg-background p-4 rounded-xl hover:border-primary"
           >
             <img
-              src={`./public/images/${item.id}.png`}
+              src={`./images/${item.id}.png`}
               alt={item.name}
               className="inline-block w-6"
             />

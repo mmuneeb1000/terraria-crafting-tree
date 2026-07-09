@@ -103,37 +103,7 @@
               {
                 "item": "spectre_boots",
                 "amount": 1,
-                "ingredients": [
-                  {
-                    "item": "rocket_boots",
-                    "amount": 1,
-                    "ingredients": []
-                  },
-                  {
-                    "item": "hermes_boots",
-                    "amount": 1,
-                    "group": "boots_alt",
-                    "ingredients": []
-                  },
-                  {
-                    "item": "flurry_boots",
-                    "amount": 1,
-                    "group": "boots_alt",
-                    "ingredients": []
-                  },
-                  {
-                    "item": "dunerider_boots",
-                    "amount": 1,
-                    "group": "boots_alt",
-                    "ingredients": []
-                  },
-                  {
-                    "item": "sailfish_boots",
-                    "amount": 1,
-                    "group": "boots_alt",
-                    "ingredients": []
-                  }
-                ]
+                "ingredients": []
               },
               {
                 "item": "aglet",
@@ -186,42 +156,7 @@
             "amount": 1,
             "group": "molten_alt",
             "station": "Tinkerer's Workshop",
-            "ingredients": [
-              {
-                "item": "magma_skull",
-                "amount": 1,
-                "station": "Tinkerer's Workshop",
-                "ingredients": [
-                  {
-                    "item": "lava_charm",
-                    "amount": 1,
-                    "ingredients": []
-                  },
-                  {
-                    "item": "obsidian_skull",
-                    "amount": 1,
-                    "ingredients": []
-                  }
-                ]
-              },
-              {
-                "item": "obsidian_skull_rose",
-                "amount": 1,
-                "station": "Tinkerer's Workshop",
-                "ingredients": [
-                  {
-                    "item": "obsidian_skull",
-                    "amount": 1,
-                    "ingredients": []
-                  },
-                  {
-                    "item": "obsidian_rose",
-                    "amount": 1,
-                    "ingredients": []
-                  }
-                ]
-              }
-            ]
+            "ingredients": []
           },
           {
             "item": "molten_charm",

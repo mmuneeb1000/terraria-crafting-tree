@@ -1,13 +1,9 @@
 function ItemHeader({ id, item }) {
   return (
     <section className="item-header mt-4">
-      <div className="flex justify-start items-center">
-        <h2 className="font-bold">{item.name} </h2>
-        <img
-          src={`../public/images/${id}.png`}
-          alt={item.name}
-          className="item-icon  my-2 mx-3"
-        />
+      <div className="flex justify-start items-center gap-4">
+        <h2 className="font-bold text-lg">{item.name} </h2>
+        <img src={`/images/${id}.png`} alt={item.name} className="h-6" />
       </div>
       <div>{item.tooltip && <p>{item.tooltip}</p>}</div>
     </section>

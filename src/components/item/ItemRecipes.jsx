@@ -9,17 +9,20 @@ function ItemRecipes({ itemId, itemMap }) {
     <section>
       <h2 className="text-xl font-bold my-4">Recipes</h2>
 
-      <div className="space-y-6 gap-5">
+      <div className="w-200 gap-5">
         {itemRecipes.map((recipe, index) => (
-          <div key={index} className="rounded-xl border p-4 text-sm">
+          <div
+            key={index}
+            className="rounded-xl border border-accent p-4 text-sm bg-background"
+          >
             <p className="mb-4">
               <strong>Crafting Station:</strong> {recipe.station}
             </p>
 
             <div>
-              <h3 className="font-semibold mb-2">Ingredients</h3>
+              <span className="font-semibold text-base">Ingredients</span>
 
-              <ul className="space-y-2 grid grid-cols-2">
+              <ul className="flex flex-wrap gap-3 p-4">
                 {recipe.ingredients.map((ingredient) => {
                   return (
                     <li
@@ -27,9 +30,9 @@ function ItemRecipes({ itemId, itemMap }) {
                       className="flex items-center gap-3"
                     >
                       <img
-                        src={`../public/images/${ingredient.item}.png`}
+                        src={`../images/${ingredient.item}.png`}
                         alt={itemMap[ingredient.item]?.name}
-                        className="w-8 h-8"
+                        className="w-4"
                       />
 
                       <span>{ingredient.amount}×</span>

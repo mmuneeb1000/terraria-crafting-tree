@@ -15,14 +15,14 @@ function ItemInfo({ item }) {
 
   return (
     <section className="flex mt-6">
-      <div className="max-w-xl overflow-hidden rounded-2xl bg-background">
-        <table className="w-full text-sm">
+      <div className="overflow-hidden border border-accent rounded-2xl bg-background">
+        <table className="text-sm">
           <tbody>
             {rows.map(([label, value], index) => (
               <tr
                 key={label}
                 className={
-                  index !== rows.length - 1 ? "border-b border-gray-700" : ""
+                  index !== rows.length - 1 ? "border-b border-accent" : ""
                 }
               >
                 <th className="w-32 bg-background px-4 py-2 text-left font-semibold">

@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const ROOT = "./public/images"; // Change to your image folder
+const ROOT = "./public/images";
 
 function renameFiles(dir) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -14,28 +14,21 @@ function renameFiles(dir) {
       continue;
     }
 
-    const ext = path.extname(entry.name).toLowerCase();
-    const name = path.basename(entry.name, ext);
+    const lowerName = entry.name.toLowerCase();
 
-    const newName =
-      name
-        .toLowerCase()
-        .replace(/'/g, "") // Remove apostrophes
-        .replace(/[^a-z0-9]+/g, "_") // Replace spaces & symbols with _
-        .replace(/^_+|_+$/g, "") + // Trim leading/trailing _
-      ext;
+    if (entry.name === lowerName) continue;
 
-    const newPath = path.join(dir, newName);
+    const tempName = `__tmp__${Date.now()}_${Math.random()
+      .toString(36)
+      .slice(2)}${path.extname(entry.name)}`;
 
-    if (oldPath === newPath) continue;
+    const tempPath = path.join(dir, tempName);
+    const newPath = path.join(dir, lowerName);
 
-    if (fs.existsSync(newPath)) {
-      console.warn(`Skipping (already exists): ${newName}`);
-      continue;
-    }
+    fs.renameSync(oldPath, tempPath);
+    fs.renameSync(tempPath, newPath);
 
-    fs.renameSync(oldPath, newPath);
-    console.log(`${entry.name} -> ${newName}`);
+    console.log(`${entry.name} -> ${lowerName}`);
   }
 }
 
