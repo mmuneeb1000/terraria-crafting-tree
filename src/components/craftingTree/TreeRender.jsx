@@ -41,7 +41,7 @@ function TreeRender({ itemId, itemMap }) {
         >
           <div className="flex items-center gap-2">
             <span className="w-6">
-              <img src={`../public/images/${node.item}.png`} />
+              <img src={`../images/${node.item}.png`} />
             </span>
             <span className="font-medium text-[12px] text-indigo">
               {node.amount}×
@@ -93,7 +93,10 @@ function TreeRender({ itemId, itemMap }) {
   return (
     <section className="overflow-x-auto overflow-y-hidden bg-background/50 rounded-2xl ">
       <h2 className="my-6 text-2xl text-center font-bold">Crafting Tree</h2>
-      <div className="min-w-max p-6">{renderNode(tree)}</div>
+      <div className="min-w-max p-6">
+        {renderNode(tree)}
+        <span className="p-4 mb-10 text-xs text-indigo">**Scroll To Right</span>
+      </div>
     </section>
   );
 }

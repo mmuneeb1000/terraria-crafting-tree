@@ -3,6 +3,7 @@ import HeroImg from "../assets/ui/terraria-hero-section.jpg";
 import TreeList from "./TreeList";
 import ItemPopular from "../components/item/ItemPopular";
 import popular from "../data/popular.json";
+import ItemFeatured from "../components/item/ItemFeatured";
 
 function Home() {
   return (
@@ -63,6 +64,9 @@ function Home() {
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <ItemFeatured />
       </section>
 
       <section id="crafting-trees" className="mt-12">

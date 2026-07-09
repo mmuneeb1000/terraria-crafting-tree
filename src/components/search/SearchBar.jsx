@@ -30,7 +30,7 @@ function SearchBar({
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder={placeholder}
-        className="border-2 border-accent hover:border-primary bg-background p-2 w-full mb-4 rounded-xl placeholder:text-text"
+        className="border-2 border-accent hover:border-primary bg-background p-2 lg:w-280 mx-auto mb-4 rounded-xl placeholder:text-text"
       />
 
       {children(results, query)}
