@@ -13,7 +13,7 @@ function Search() {
   }, []);
 
   return (
-    <section>
+    <section className="p-10 flex flex-col items-center justify-center">
       <SearchBar data={search} keys={["name"]} placeholder="Search items...">
         {(results, query) => (
           <>
@@ -21,7 +21,7 @@ function Search() {
               <>
                 <h1 className="mb-6 text-3xl font-bold">All Items</h1>
 
-                <div className="flex flex-wrap justify-center gap-4">
+                <div className="flex flex-wrap gap-4">
                   {results.map((item) => (
                     <Link
                       key={item.id}
