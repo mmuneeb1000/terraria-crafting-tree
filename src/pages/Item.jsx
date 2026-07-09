@@ -2,12 +2,12 @@ import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import items from "../data/items.json";
 import trees from "../data/tree.json";
+import popular from "../data/popular.json";
 import ItemHeader from "../components/item/ItemHeader";
 import ItemInfo from "../components/item/ItemStats";
 import ItemRecipes from "../components/item/ItemRecipes";
 import TreeRender from "../components/craftingTree/TreeRender";
 import ItemPopular from "../components/item/ItemPopular";
-import popular from "../data/popular.json";
 
 function Item() {
   const { id } = useParams();
