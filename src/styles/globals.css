@@ -1,7 +1,5 @@
 @import "tailwindcss";
 @import "./typography.css";
-@import "./utilities.css";
-@import "./variables.css";
 
 @theme {
   --color-background: #f8f3e6;
