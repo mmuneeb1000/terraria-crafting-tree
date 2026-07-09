@@ -1,51 +1,59 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import recipes from "../../data/recipes.json";
 
 function ItemRecipes({ itemId, itemMap }) {
+  const [recipes, setRecipes] = useState({});
+
+  useEffect(() => {
+    async function loadRecipes() {
+      const res = await fetch("/data/recipes.json");
+      const data = await res.json();
+      setRecipes(data);
+    }
+
+    loadRecipes();
+  }, []);
+
   const itemRecipes = recipes[itemId];
+
   if (!itemRecipes?.length) return null;
 
   return (
     <section>
-      <h2 className="text-xl font-bold my-4">Recipes</h2>
+      <h2 className="mb-4 text-2xl font-bold">Recipes</h2>
 
       <div className="w-200 gap-5">
         {itemRecipes.map((recipe, index) => (
           <div
             key={index}
-            className="rounded-xl border border-accent p-4 text-sm bg-background"
+            className="rounded-xl border border-accent bg-background p-4 text-sm"
           >
             <p className="mb-4">
               <strong>Crafting Station:</strong> {recipe.station}
             </p>
 
             <div>
-              <span className="font-semibold text-base">Ingredients</span>
+              <span className="text-base font-semibold">Ingredients</span>
 
               <ul className="flex flex-wrap gap-3 p-4">
-                {recipe.ingredients.map((ingredient) => {
-                  return (
-                    <li
-                      key={ingredient.item}
-                      className="flex items-center gap-3"
+                {recipe.ingredients.map((ingredient) => (
+                  <li key={ingredient.item} className="flex items-center gap-3">
+                    <img
+                      src={`/images/${ingredient.item}.png`}
+                      alt={itemMap[ingredient.item]?.name}
+                      className="w-4"
+                    />
+
+                    <span>{ingredient.amount}×</span>
+
+                    <Link
+                      to={`/item/${ingredient.item}`}
+                      className="hover:text-sky-400 hover:underline"
                     >
-                      <img
-                        src={`../images/${ingredient.item}.png`}
-                        alt={itemMap[ingredient.item]?.name}
-                        className="w-4"
-                      />
-
-                      <span>{ingredient.amount}×</span>
-
-                      <Link
-                        to={`/item/${ingredient.item}`}
-                        className=" hover:text-sky-400 hover:underline"
-                      >
-                        {itemMap[ingredient.item]?.name}
-                      </Link>
-                    </li>
-                  );
-                })}
+                      {itemMap[ingredient.item]?.name}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
 

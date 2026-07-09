@@ -1,14 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import Layout from "./components/layout/Layout";
-
 import Home from "./pages/Home";
 import Item from "./pages/Item";
 import Category from "./pages/Category";
 import Search from "./pages/Search";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
-
 import TreeList from "./pages/TreeList";
 
 export const router = createBrowserRouter([

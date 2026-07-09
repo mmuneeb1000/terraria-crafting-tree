@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
-import { useEffect } from "react";
-import items from "../data/items.json";
-import trees from "../data/tree.json";
-import popular from "../data/popular.json";
+import { useState, useEffect } from "react";
+import items from "/data/items.json?url";
+import trees from "/data/tree.json?url";
+import popular from "/data/popular.json?url";
 import ItemHeader from "../components/item/ItemHeader";
 import ItemInfo from "../components/item/ItemStats";
 import ItemRecipes from "../components/item/ItemRecipes";
@@ -12,18 +12,44 @@ import ItemPopular from "../components/item/ItemPopular";
 function Item() {
   const { id } = useParams();
 
-  const item = items[id];
+  const [items, setItems] = useState({});
+  const [trees, setTrees] = useState({});
+  const [popular, setPopular] = useState([]);
 
-  if (!item) {
-    return <h1>Item not found</h1>;
-  }
-  const hasCraftingTree = Boolean(trees[id]);
   useEffect(() => {
+    async function loadData() {
+      const [itemsRes, treesRes, popularRes] = await Promise.all([
+        fetch("/data/items.json"),
+        fetch("/data/tree.json"),
+        fetch("/data/popular.json"),
+      ]);
+
+      const [itemsData, treesData, popularData] = await Promise.all([
+        itemsRes.json(),
+        treesRes.json(),
+        popularRes.json(),
+      ]);
+
+      setItems(itemsData);
+      setTrees(treesData);
+      setPopular(popularData);
+    }
+
+    loadData();
+
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   }, [id]);
+
+  const item = items[id];
+
+  if (!item) {
+    return <p>Loading...</p>;
+  }
+
+  const hasCraftingTree = Boolean(trees[id]);
 
   return (
     <>

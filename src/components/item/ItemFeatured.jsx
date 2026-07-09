@@ -1,14 +1,37 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import featured from "../../data/featured.json";
-import items from "../../data/items.json";
 
 function ItemFeatured() {
+  const [featured, setFeatured] = useState([]);
+  const [items, setItems] = useState({});
+
+  useEffect(() => {
+    async function loadData() {
+      const [featuredRes, itemsRes] = await Promise.all([
+        fetch("/data/featured.json"),
+        fetch("/data/items.json"),
+      ]);
+
+      const [featuredData, itemsData] = await Promise.all([
+        featuredRes.json(),
+        itemsRes.json(),
+      ]);
+
+      setFeatured(featuredData);
+      setItems(itemsData);
+    }
+
+    loadData();
+  }, []);
+
+  if (featured.length === 0) {
+    return null;
+  }
+
   return (
-    <section className="mx-auto max-w-7xl px-6 py-12">
+    <section className="px-6 py-12">
       <div className="mb-8">
-        <h2 className="text-3xl font-bold text-text">
-          Featured Crafting Trees
-        </h2>
+        <h2 className="text-3xl font-bold">Featured Crafting Trees</h2>
 
         <p className="text-neutral-600">
           The most popular and challenging crafting trees in Terraria.
@@ -18,6 +41,7 @@ function ItemFeatured() {
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
         {featured.map((id) => {
           const item = items[id];
+          if (!item) return null;
 
           return (
             <Link
@@ -39,7 +63,7 @@ function ItemFeatured() {
                 View the complete crafting recipe and ingredient tree.
               </p>
 
-              <span className="mt-6 inline-flex items-center gap-2 text-green-400 group-hover:gap-3 transition-all">
+              <span className="mt-6 inline-flex items-center gap-2 text-green-400 transition-all group-hover:gap-3">
                 View Tree →
               </span>
             </Link>

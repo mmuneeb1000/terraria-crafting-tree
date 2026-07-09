@@ -1,8 +1,17 @@
-import { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
-import trees from "../../data/tree.json";
+import { useEffect, useState } from "react";
 
 function TreeRender({ itemId, itemMap }) {
+  const [trees, setTrees] = useState({});
+  useEffect(() => {
+    async function loadTrees() {
+      const res = await fetch("/data/tree.json");
+      const data = await res.json();
+      setTrees(data);
+    }
+
+    loadTrees();
+  }, []);
   const tree = trees[itemId];
   if (!tree) return null;
 

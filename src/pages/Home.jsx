@@ -1,11 +1,23 @@
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import HeroImg from "../assets/ui/terraria-hero-section.jpg";
 import TreeList from "./TreeList";
 import ItemPopular from "../components/item/ItemPopular";
-import popular from "../data/popular.json";
 import ItemFeatured from "../components/item/ItemFeatured";
 
 function Home() {
+  const [popular, setPopular] = useState([]);
+
+  useEffect(() => {
+    async function loadPopular() {
+      const res = await fetch("/data/popular.json");
+      const data = await res.json();
+      setPopular(data);
+    }
+
+    loadPopular();
+  }, []);
+
   return (
     <>
       <section className="relative h-[650px] lg:h-[600px] overflow-hidden">
