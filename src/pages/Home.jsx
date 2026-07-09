@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import HeroImg from "../assets/ui/terraria-hero-section.jpg";
 import TreeList from "./TreeList";
+import Popular from "../components/item/ItemPopular";
+import popularItems from "../data/popular.json";
 
 function Home() {
   return (
@@ -65,6 +67,9 @@ function Home() {
 
       <section id="crafting-trees" className="mt-12">
         <TreeList />
+      </section>
+      <section>
+        <Popular title="Popular Crafting Items" items={popularItems} />
       </section>
     </>
   );

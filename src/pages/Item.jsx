@@ -5,6 +5,8 @@ import ItemHeader from "../components/item/ItemHeader";
 import ItemInfo from "../components/item/ItemStats";
 import ItemRecipes from "../components/item/ItemRecipes";
 import TreeRender from "../components/craftingTree/TreeRender";
+import Popular from "../components/item/ItemPopular";
+import popularItems from "../data/popular.json";
 
 function Item() {
   const { id } = useParams();
@@ -36,6 +38,7 @@ function Item() {
             <ItemRecipes itemId={id} itemMap={items} />
           </div>
         )}
+        <Popular title="Popular Crafting Items" items={popularItems} />
       </section>
     </>
   );
