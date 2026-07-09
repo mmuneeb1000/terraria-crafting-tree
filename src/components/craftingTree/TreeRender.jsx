@@ -35,9 +35,14 @@ function TreeRender({ itemId, itemMap }) {
 
     return (
       <div key={node.item} className="flex items-center justify-center gap-4 ">
-        <div className="w-46 shrink-0 rounded-lg border bg-background p-2">
+        <div
+          className="w-46 shrink-0 rounded-lg border-2 border-accent
+          bg-background p-2 hover:scale-110 transition"
+        >
           <div className="flex items-center gap-2">
-            <img className="w-6" src={`../public/images/${node.item}.png`} />
+            <span className="w-6">
+              <img src={`../public/images/${node.item}.png`} />
+            </span>
             <span className="font-medium text-[12px] text-indigo">
               {node.amount}×
             </span>
@@ -86,7 +91,7 @@ function TreeRender({ itemId, itemMap }) {
   };
 
   return (
-    <section className="overflow-x-auto overflow-y-hidden bg-background/80 rounded-2xl ">
+    <section className="overflow-x-auto overflow-y-hidden bg-background/50 rounded-2xl ">
       <h2 className="my-6 text-2xl text-center font-bold">Crafting Tree</h2>
       <div className="min-w-max p-6">{renderNode(tree)}</div>
     </section>
