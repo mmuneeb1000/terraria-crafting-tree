@@ -5,26 +5,26 @@ function Navbar() {
     <nav className="flex justify-center items-center gap-5 m-2 lg:gap-8">
       <Link
         to="/"
-        className="border-b-2 border-background font-semibold hover:border-accent transition"
+        className="border-b-2 border-background font-semibold hover:border-accent active:border-accent focus:border:accent transition"
       >
         Home
       </Link>
       <Link
         to="/trees"
-        className="font-semibold hover:border-b-2 hover:border-accent"
+        className="border-b-2 border-background font-semibold hover:border-accent active:border-accent focus:border:accent transition"
       >
         Trees
       </Link>
       <Link
         to="/search"
-        className="font-semibold hover:border-b-2 hover:border-accent "
+        className="border-b-2 border-background font-semibold hover:border-accent active:border-accent focus:border:accent transition"
       >
         Search
       </Link>
 
       <Link
         to="/about"
-        className="font-semibold hover:border-b-2 hover:border-accent"
+        className="border-b-2 border-background font-semibold hover:border-accent active:border-accent focus:border:accent transition"
       >
         About
       </Link>

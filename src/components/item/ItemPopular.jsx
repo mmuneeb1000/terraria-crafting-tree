@@ -5,12 +5,12 @@ function ItemPopular({ title = "Popular Items", items = [] }) {
     <section className="p-4">
       <h2 className="mb-6 text-center text-2xl font-bold">{title}</h2>
 
-      <div className="lg:w-250 gap-4 mb-6 mx-auto justify-items-center grid grid-cols-2  sm:grid-cols-3 lg:grid-cols-5">
+      <div className="lg:w-280 flex flex-wrap gap-4 mb-6 mx-auto justify-center items-center">
         {items.map((item) => (
           <Link
             key={item.id}
             to={`/item/${item.id}`}
-            className="group lg:w-48 rounded-lg border-2 border-accent bg-background p-2 transition hover:border-primary"
+            className="w-30 lg:w-48 rounded-lg border-2 border-accent bg-background p-2 transition hover:border-primary"
           >
             <img
               src={`/images/${item.id}.png`}
