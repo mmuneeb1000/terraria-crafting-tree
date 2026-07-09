@@ -70,12 +70,12 @@ function TreeRender({ itemId, itemMap }) {
         {groupedIngredients.length > 0 && (
           <>
             <div className="h-px w-8 bg-neutral-500 shrink-0" />
-            <div className="flex flex-col gap-4 p-4 rounded-lg border-1 border-dashed border-accent">
+            <div className="flex flex-col gap-4 p-4 rounded-lg border-2 border-dashed border-accent">
               {groupedIngredients.map((entry) =>
                 entry.type === "group" ? (
                   <div
                     key={entry.key}
-                    className="flex items-center gap-4 rounded-lg border-1 border-accent border-dashed p-2"
+                    className="flex items-center gap-4 rounded-lg border-2 border-accent border-dashed p-2"
                   >
                     <span className="text-xs font-semibold uppercase text-neutral-500">
                       One of
