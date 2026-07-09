@@ -14,7 +14,7 @@ function ItemInfo({ item }) {
   ].filter(([, value]) => value != null && value !== false && value !== "");
 
   return (
-    <section className="mt-6">
+    <section className="flex mt-6">
       <div className="max-w-xl overflow-hidden rounded-2xl bg-background">
         <table className="w-full text-sm">
           <tbody>

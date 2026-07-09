@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import items from "../data/items.json";
-
 import ItemHeader from "../components/item/ItemHeader";
 import ItemInfo from "../components/item/ItemStats";
 import ItemRecipes from "../components/item/ItemRecipes";
@@ -17,8 +16,8 @@ function Item() {
 
   return (
     <>
-      <section className="grid grid-cols-2 gap-4">
-        <div className="flex flex-col">
+      <section className="flex mx-auto w-100 gap-4">
+        <div className="flex flex-col ">
           <ItemHeader item={item} id={id} />
 
           <ItemInfo item={item} />

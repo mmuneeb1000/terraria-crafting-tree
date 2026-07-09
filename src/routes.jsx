@@ -10,7 +10,7 @@ import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import ItemList from "./pages/ItemList";
 import RecipeList from "./pages/RecipeList";
-import MapsList from "./pages/MapsList";
+import TreeList from "./pages/TreeList";
 
 export const router = createBrowserRouter([
   {
@@ -49,7 +49,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "trees",
-        element: <MapsList />,
+        element: <TreeList />,
       },
     ],
   },

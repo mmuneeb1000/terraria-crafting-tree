@@ -1,8 +1,10 @@
-import MapsList from "./MapsList";
+import ItemList from "./ItemList";
+import TreeList from "./TreeList";
+
 function Home() {
   return (
     <>
-      <MapsList />
+      <TreeList />
     </>
   );
 }
