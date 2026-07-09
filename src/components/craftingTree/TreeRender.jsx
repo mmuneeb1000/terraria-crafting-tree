@@ -95,7 +95,9 @@ function TreeRender({ itemId, itemMap }) {
       <h2 className="my-6 text-2xl text-center font-bold">Crafting Tree</h2>
       <div className="min-w-max p-6">
         {renderNode(tree)}
-        <span className="p-4 mb-10 text-xs text-indigo">**Scroll To Right</span>
+        <span className="lg:hidden p-4 mb-10 text-xs text-indigo">
+          **Scroll To Right
+        </span>
       </div>
     </section>
   );
