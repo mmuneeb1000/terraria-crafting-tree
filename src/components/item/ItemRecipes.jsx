@@ -22,7 +22,7 @@ function ItemRecipes({ itemId, itemMap }) {
     <section>
       <h2 className="mb-4 text-2xl font-bold">Recipes</h2>
 
-      <div className="w-200 gap-5">
+      <div className="lg:w-200 lg:gap-5">
         {itemRecipes.map((recipe, index) => (
           <div
             key={index}
