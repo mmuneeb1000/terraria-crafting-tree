@@ -2,18 +2,30 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="flex gap-4 mx-2">
-      <Link to="/" className="hover:underline font-semibold">
+    <nav className="flex justify-center items-center gap-4 m-2">
+      <Link
+        to="/"
+        className="border-b-2 border-background font-semibold hover:border-accent transition"
+      >
         Home
       </Link>
-      <Link to="/trees" className="hover:underline font-semibold">
+      <Link
+        to="/trees"
+        className="font-semibold hover:border-b-2 hover:border-accent"
+      >
         Trees
       </Link>
-      <Link to="/search" className="hover:underline font-semibold">
+      <Link
+        to="/search"
+        className="font-semibold hover:border-b-2 hover:border-accent "
+      >
         Search
       </Link>
 
-      <Link to="/about" className="hover:underline font-semibold">
+      <Link
+        to="/about"
+        className="font-semibold hover:border-b-2 hover:border-accent"
+      >
         About
       </Link>
     </nav>
