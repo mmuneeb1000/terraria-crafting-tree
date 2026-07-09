@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="flex justify-center items-center gap-4 m-2">
+    <nav className="flex justify-center items-center gap-5 m-2 lg:gap-8">
       <Link
         to="/"
         className="border-b-2 border-background font-semibold hover:border-accent transition"

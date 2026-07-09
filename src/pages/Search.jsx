@@ -4,7 +4,7 @@ import search from "../data/search.json";
 
 function Search() {
   return (
-    <section className="p-6">
+    <section className="p-10">
       <SearchBar data={search} keys={["name"]} placeholder="Search items...">
         {(results, query) => (
           <>
@@ -17,7 +17,7 @@ function Search() {
                     <Link
                       key={item.id}
                       to={`/item/${item.id}`}
-                      className="border border-accent p-2 bg-background rounded-xl hover:bg-gray-100"
+                      className="border-2 border-accent hover:border-primary p-2 bg-background rounded-xl hover:bg-gray-100"
                     >
                       {item.name}
                     </Link>

@@ -27,14 +27,14 @@ function Item() {
 
   return (
     <>
-      <section className="px-2 py-6 mx-auto flex justify-center">
+      <section className="px-2 py-6 mx-auto flex flex-col lg:flex-row justify-center">
         <div className="max-w-100 p-4 flex flex-col">
           <ItemHeader item={item} id={id} />
           <ItemInfo item={item} />
         </div>
 
         {hasCraftingTree ? (
-          <div>
+          <div className="lg:w-auto overflow-x-auto p-2">
             <TreeRender itemId={id} itemMap={items} />
           </div>
         ) : (

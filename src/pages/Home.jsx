@@ -7,7 +7,7 @@ import popular from "../data/popular.json";
 function Home() {
   return (
     <>
-      <section className="relative h-[450px] lg:h-[600px] overflow-hidden">
+      <section className="relative h-[650px] lg:h-[600px] overflow-hidden">
         <img
           src={HeroImg}
           alt="Terraria landscape"
@@ -21,9 +21,9 @@ function Home() {
             Terraria Crafting Guide
           </p>
 
-          <h1 className="max-w-4xl text-5xl font-bold text-white lg:text-7xl">
-            Crafting Trees Made Simple
-          </h1>
+          <h2 className="max-w-4xl text-4xl font-bold text-white lg:text-7xl">
+            Crafting Made Simple
+          </h2>
 
           <p className="mt-6 max-w-2xl text-lg text-gray-200">
             Browse complete crafting trees, discover every ingredient, and trace
