@@ -4,7 +4,7 @@ import Sitelogo from "../../assets/logos/terraria-recipes-150px.png";
 
 function Header() {
   return (
-    <header className="border-b-2 border-dashed border-accent w-full bg-background">
+    <header className="border-b border-accent w-full bg-background">
       <div className="p-4 flex items-center justify-between">
         <div className=" text-xl font-bold">
           <a className="flex items-center gap-2" href="/trees">

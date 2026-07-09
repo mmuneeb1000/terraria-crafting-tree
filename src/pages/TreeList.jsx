@@ -19,13 +19,15 @@ const items = Object.entries(tree)
 
 function TreeList() {
   return (
-    <SearchBar
-      data={items}
-      keys={["name"]}
-      placeholder="Search crafting trees..."
-    >
-      {(results) => <TreeNav items={results} />}
-    </SearchBar>
+    <section className="flex flex-col gap-4 p-6">
+      <SearchBar
+        data={items}
+        keys={["name"]}
+        placeholder="Search crafting trees..."
+      >
+        {(results) => <TreeNav items={results} />}
+      </SearchBar>
+    </section>
   );
 }
 

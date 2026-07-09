@@ -258,9 +258,7 @@
                 "item": "volcano",
                 "amount": 1,
                 "station": "Iron or Lead Anvil",
-                "ingredients": [
-                  { "item": "hellstone_bar", "amount": 20, "ingredients": [] }
-                ]
+                "ingredients": []
               },
               {
                 "item": "muramasa",
@@ -271,26 +269,19 @@
                 "item": "blade_of_grass",
                 "amount": 1,
                 "station": "Iron or Lead Anvil",
-                "ingredients": [
-                  { "item": "jungle_spores", "amount": 12, "ingredients": [] },
-                  { "item": "stinger", "amount": 15, "ingredients": [] }
-                ]
+                "ingredients": []
               },
               {
                 "item": "lights_bane",
                 "amount": 1,
                 "group": "evil_sword",
-                "ingredients": [
-                  { "item": "demonite_bar", "amount": 20, "ingredients": [] }
-                ]
+                "ingredients": []
               },
               {
                 "item": "blood_butcherer",
                 "amount": 1,
                 "group": "evil_sword",
-                "ingredients": [
-                  { "item": "crimtane_bar", "amount": 20, "ingredients": [] }
-                ]
+                "ingredients": []
               }
             ]
           },
@@ -1901,37 +1892,7 @@
                 "item": "nights_edge",
                 "amount": 1,
                 "station": "Demon or Crimson Altar",
-                "ingredients": [
-                  {
-                    "item": "volcano",
-                    "amount": 1,
-                    "station": "Iron or Lead Anvil",
-                    "ingredients": []
-                  },
-                  {
-                    "item": "muramasa",
-                    "amount": 1,
-                    "ingredients": []
-                  },
-                  {
-                    "item": "blade_of_grass",
-                    "amount": 1,
-                    "station": "Iron or Lead Anvil",
-                    "ingredients": []
-                  },
-                  {
-                    "item": "lights_bane",
-                    "amount": 1,
-                    "group": "evil_sword",
-                    "ingredients": []
-                  },
-                  {
-                    "item": "blood_butcherer",
-                    "amount": 1,
-                    "group": "evil_sword",
-                    "ingredients": []
-                  }
-                ]
+                "ingredients": []
               },
               { "item": "soul_of_sight", "amount": 20, "ingredients": [] },
               { "item": "soul_of_might", "amount": 20, "ingredients": [] },
@@ -2002,13 +1963,7 @@
         "item": "copper_shortsword",
         "amount": 1,
         "station": "Iron Anvil",
-        "ingredients": [
-          {
-            "item": "copper_bar",
-            "amount": 5,
-            "ingredients": []
-          }
-        ]
+        "ingredients": []
       }
     ]
   },
