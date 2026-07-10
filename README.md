@@ -5,6 +5,7 @@ A fan-made Terraria reference application built with React, Vite, and Tailwind C
 The goal of this project is to make exploring Terraria's crafting system significantly easier by presenting recipes as interactive crafting trees instead of long lists. The application combines fast search, recursive recipe visualization, and a large preprocessed item database to help players quickly understand how any item is crafted.
 
 Although the project began as a crafting tree viewer, it is being expanded into a complete Terraria companion featuring item information, crafting stations, categories, bosses, NPCs, and other game resources.
+[Live Website:](https://playful-praline-5ad535.netlify.app/)
 
 ---
 

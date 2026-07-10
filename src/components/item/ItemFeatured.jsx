@@ -29,7 +29,7 @@ function ItemFeatured() {
   }
 
   return (
-    <section className="px-10 py-4">
+    <section className="lg:max-w-300 lg:mx-auto p-4 mt-2 lg:mt-10">
       <div className="mb-8">
         <h2 className="text-3xl font-bold">Featured Crafting Trees</h2>
 
