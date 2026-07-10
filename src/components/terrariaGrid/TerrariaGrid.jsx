@@ -69,8 +69,10 @@ export default function TerrariaGrid({ text = "TERRARIA" }) {
           <Link
             key={item.id + i}
             to={`/item/${item.id}`}
+            target="_blank"
+            rel="noopener noreferrer"
             className={`aspect-square rounded transition ${
-              isLetter ? "bg-background" : "bg-text"
+              isLetter ? "bg-background text-background" : "bg-text"
             }`}
           >
             <img

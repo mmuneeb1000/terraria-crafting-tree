@@ -19,14 +19,14 @@ function ItemRecipes({ itemId, itemMap }) {
   if (!itemRecipes?.length) return null;
 
   return (
-    <section>
+    <section className="flex flex-col">
       <h2 className="mb-4 text-2xl font-bold">Recipes</h2>
 
-      <div className="lg:w-200 lg:gap-5">
+      <div className="lg:w-200 lg:flex lg:flex-col lg:gap-5">
         {itemRecipes.map((recipe, index) => (
           <div
             key={index}
-            className="rounded-xl border border-accent bg-background p-4 text-sm"
+            className="flex flex-col rounded-xl border border-accent bg-background p-4 text-sm"
           >
             <p className="mb-4">
               <strong>Crafting Station:</strong> {recipe.station}
@@ -37,19 +37,18 @@ function ItemRecipes({ itemId, itemMap }) {
 
               <ul className="flex flex-wrap gap-3 p-4">
                 {recipe.ingredients.map((ingredient) => (
-                  <li key={ingredient.item} className="flex items-center gap-3">
-                    <img
-                      src={`/images/${ingredient.item}.png`}
-                      alt={itemMap[ingredient.item]?.name}
-                      className="w-4"
-                    />
-
-                    <span>{ingredient.amount}×</span>
-
+                  <li key={ingredient.item}>
                     <Link
                       to={`/item/${ingredient.item}`}
-                      className="hover:text-sky-400 hover:underline"
+                      className="flex items-center gap-3 text-indigo font-semibold hover:text-sky-400 hover:underline"
                     >
+                      <img
+                        src={`/images/${ingredient.item}.png`}
+                        alt={itemMap[ingredient.item]?.name}
+                        className="w-6"
+                      />
+
+                      <span>{ingredient.amount}×</span>
                       {itemMap[ingredient.item]?.name}
                     </Link>
                   </li>

@@ -66,7 +66,7 @@ function Item() {
             <TreeRender itemId={id} itemMap={items} />
           </div>
         ) : (
-          <div className="ml-10 mt-4">
+          <div className="p-4 lg:ml-10 lg:mt-4">
             <ItemRecipes itemId={id} itemMap={items} />
           </div>
         )}
