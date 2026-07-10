@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { createMask } from "../../utils/createMask";
+import { Link } from "react-router-dom";
 
 const COLS = 48;
 const ROWS = 14;
@@ -56,7 +57,7 @@ export default function TerrariaGrid({ text = "TERRARIA" }) {
 
   return (
     <div
-      className="hidden lg:grid px-10 gap-1"
+      className="hidden lg:grid px-10 py-4 gap-1"
       style={{
         gridTemplateColumns: `repeat(${COLS}, minmax(0, 1fr))`,
       }}
@@ -65,10 +66,11 @@ export default function TerrariaGrid({ text = "TERRARIA" }) {
         const item = shuffled[i % shuffled.length];
 
         return (
-          <div
-            key={i}
+          <Link
+            key={item.id + i}
+            to={`/item/${item.id}`}
             className={`aspect-square rounded transition ${
-              isLetter ? "bg-background" : "bg-neutral-900"
+              isLetter ? "bg-background" : "bg-text"
             }`}
           >
             <img
@@ -76,10 +78,10 @@ export default function TerrariaGrid({ text = "TERRARIA" }) {
               alt={item.name}
               loading="lazy"
               className={`h-full w-full object-contain p-1 transition ${
-                isLetter ? "animate-glow" : "opacity-40"
+                isLetter ? "animate-glow" : "opacity-60"
               }`}
             />
-          </div>
+          </Link>
         );
       })}
     </div>

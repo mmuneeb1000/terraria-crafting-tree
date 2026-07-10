@@ -8,6 +8,7 @@ import ItemInfo from "../components/item/ItemStats";
 import ItemRecipes from "../components/item/ItemRecipes";
 import TreeRender from "../components/craftingTree/TreeRender";
 import ItemPopular from "../components/item/ItemPopular";
+import Loading from "../components/layout/Loading";
 
 function Item() {
   const { id } = useParams();
@@ -46,7 +47,7 @@ function Item() {
   const item = items[id];
 
   if (!item) {
-    return <p>Loading...</p>;
+    return <Loading />;
   }
 
   const hasCraftingTree = Boolean(trees[id]);

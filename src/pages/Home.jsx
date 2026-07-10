@@ -81,15 +81,11 @@ function Home() {
       <section>
         <ItemFeatured />
       </section>
-      <section>
-        <TerrariaGrid />
-      </section>
-
       <section id="crafting-trees" className="mt-12">
         <TreeList />
       </section>
       <section>
-        <ItemPopular title="Popular Items" items={popular} />
+        <TerrariaGrid />
       </section>
     </>
   );
