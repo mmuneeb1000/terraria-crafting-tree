@@ -8,7 +8,8 @@ import ItemInfo from "../components/item/ItemStats";
 import ItemRecipes from "../components/item/ItemRecipes";
 import TreeRender from "../components/craftingTree/TreeRender";
 import ItemPopular from "../components/item/ItemPopular";
-import Loading from "../components/layout/Loading";
+import Loading from "../components/ui/Loading";
+import SocialShare from "../components/ui/SocialShare";
 
 function Item() {
   const { id } = useParams();
@@ -69,6 +70,9 @@ function Item() {
             <ItemRecipes itemId={id} itemMap={items} />
           </div>
         )}
+      </section>
+      <section>
+        <SocialShare />
       </section>
       <section>
         <ItemPopular title="Popular Items" items={popular} />

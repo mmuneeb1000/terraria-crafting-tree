@@ -26,9 +26,9 @@
 
 - [ - ] Normalize data
 - [ - ] Create item lookup map
-- [ ] Create recipe lookup map
-- [ ] Optimize JSON
-- [ ] Store locally
+- [ - ] Create recipe lookup map
+- [ - ] Optimize JSON
+- [ - ] Store locally
 
 ---
 
@@ -37,17 +37,17 @@
 ### Branding
 
 - [ - ] Choose website name
-- [ ] Design logo
-- [ ] Select fonts
-- [ ] Select color palette
-- [ ] Create favicon
+- [ - ] Design logo
+- [ - ] Select fonts
+- [ - ] Select color palette
+- [ - ] Create favicon
 
 ### Layout
 
-- [ ] Homepage wireframe
-- [ ] Item page wireframe
-- [ ] Crafting Tree wireframe
-- [ ] Mobile wireframe
+- [ - ] Homepage wireframe
+- [ - ] Item page wireframe
+- [ - ] Crafting Tree wireframe
+- [ - ] Mobile wireframe
 
 ---
 
@@ -55,11 +55,11 @@
 
 ### Homepage
 
-- [ ] Hero section
-- [ ] Search bar
-- [ ] Popular items
-- [ ] Categories
-- [ ] Footer
+- [ - ] Hero section
+- [ - ] Search bar
+- [ - ] Popular items
+- [ - ] Categories
+- [ - ] Footer
 
 ### Categories
 
@@ -73,17 +73,17 @@
 
 ### Search
 
-- [ ] Search results page
-- [ ] Empty state
-- [ ] No results state
+- [ - ] Search results page
+- [ - ] Empty state
+- [ - ] No results state
 
 ### Item Page
 
-- [ ] Item header
-- [ ] Stats section
-- [ ] Recipe section
-- [ ] Crafting tree
-- [ ] Related items
+- [ - ] Item header
+- [ - ] Stats section
+- [ - ] Recipe section
+- [ - ] Crafting tree
+- [ - ] Related items
 
 ---
 
@@ -91,16 +91,15 @@
 
 ### Layout
 
-- [ ] Header
-- [ ] Footer
-- [ ] Navigation
-- [ ] Page container
+- [ -] Header
+- [ - ] Footer
+- [ - ] Navigation
+- [ - ] Page container
 
 ### Search
 
 - [ ] SearchBar
-- [ ] SearchDropdown
-- [ ] SearchResults
+-
 
 ### Item
 
