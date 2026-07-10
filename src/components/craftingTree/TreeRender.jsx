@@ -43,33 +43,30 @@ function TreeRender({ itemId, itemMap }) {
     const groupedIngredients = groupIngredients(node.ingredients);
 
     return (
-      <div key={node.item} className="flex items-center justify-center gap-4 ">
+      <div key={node.item} className="flex items-center gap-4 ">
         <div
-          className="w-46 shrink-0 rounded-lg border-2 border-accent
-          bg-background p-2 hover:scale-110 transition"
+          className="w-36 shrink-0 rounded-lg border-2 border-accent
+          bg-background p-2 hover:scale-110 transition hover:border-green"
         >
           <div className="flex items-center gap-2">
-            <span className="w-6">
-              <img src={`../images/${node.item}.png`} />
-            </span>
-            <span className="font-medium text-[12px] text-indigo">
-              {node.amount}×
-            </span>
             <Link
               to={`/item/${node.item}`}
-              className="font-semibold text-sm text-green hover:text-sky-400 hover:underline"
+              className="font-semibold text-sm text-green "
             >
+              <span className="w-6">
+                <img src={`../images/${node.item}.png`} />
+              </span>
+              <span className="font-medium text-[12px] text-indigo">
+                {node.amount}×
+              </span>
               {item.name}
             </Link>
           </div>
-          {node.station && (
-            <p className="mt-2 text-xs text-black">Station: {node.station}</p>
-          )}
         </div>
 
         {groupedIngredients.length > 0 && (
           <>
-            <div className="h-px w-8 bg-neutral-500 shrink-0" />
+            <div className="h-px w-8 bg-accent shrink-0" />
             <div className="flex flex-col gap-4 p-4 rounded-lg border-2 border-dashed border-accent">
               {groupedIngredients.map((entry) =>
                 entry.type === "group" ? (

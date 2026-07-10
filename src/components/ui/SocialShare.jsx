@@ -55,7 +55,8 @@ function SocialShare({
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`Share on ${link.name}`}
-          className="flex h-10 w-10 items-center justify-center rounded-lg border border-text/20 transition hover:bg-background hover:scale-105"
+          className="flex h-10 w-10 items-center justify-center bg-background
+           rounded-lg border border-text/20 transition hover:bg-surface hover:scale-105"
         >
           {link.icon}
         </a>
@@ -64,7 +65,8 @@ function SocialShare({
       <button
         onClick={copyLink}
         aria-label="Copy link"
-        className="flex h-10 w-10 items-center justify-center rounded-lg border border-text/20 transition hover:bg-background hover:scale-105"
+        className="flex h-10 w-10 items-center justify-center bg-background 
+        rounded-lg border border-text/20 transition hover:bg-surface hover:scale-105"
       >
         {copied ? <Check size={18} /> : <Link2 size={18} />}
       </button>
