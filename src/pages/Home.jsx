@@ -4,6 +4,7 @@ import HeroImg from "../assets/ui/terraria-hero-section.jpg";
 import TreeList from "./TreeList";
 import ItemPopular from "../components/item/ItemPopular";
 import ItemFeatured from "../components/item/ItemFeatured";
+import TerrariaGrid from "../components/terrariaGrid/TerrariaGrid";
 
 function Home() {
   const [popular, setPopular] = useState([]);
@@ -79,6 +80,9 @@ function Home() {
       </section>
       <section>
         <ItemFeatured />
+      </section>
+      <section>
+        <TerrariaGrid />
       </section>
 
       <section id="crafting-trees" className="mt-12">

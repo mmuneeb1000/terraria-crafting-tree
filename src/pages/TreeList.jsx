@@ -27,7 +27,7 @@ function TreeList() {
   }, []);
 
   return (
-    <section className="flex flex-col gap-4 p-10">
+    <section className="flex flex-col gap-4 px-10">
       <SearchBar
         data={items}
         keys={["name"]}
