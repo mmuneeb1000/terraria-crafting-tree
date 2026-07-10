@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { createMask } from "../../utils/createMask";
+import { createMask } from "./createMask";
 import { Link } from "react-router-dom";
 
 const COLS = 48;

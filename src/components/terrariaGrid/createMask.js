@@ -1,4 +1,4 @@
-import { FONT } from "./pixelFont";
+import { FONT } from "./PixelFont";
 
 export function createMask(text, cols, rows) {
   text = text.toUpperCase();
