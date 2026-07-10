@@ -57,7 +57,7 @@ export default function TerrariaGrid({ text = "TERRARIA" }) {
 
   return (
     <div
-      className="hidden lg:grid px-10 py-4 gap-1"
+      className="hidden lg:grid px-12 py-4 gap-1"
       style={{
         gridTemplateColumns: `repeat(${COLS}, minmax(0, 1fr))`,
       }}
