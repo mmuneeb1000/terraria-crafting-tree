@@ -1,38 +1,32 @@
 function ItemInfo({ item }) {
-  const rows = [
-    ["Rarity", item.rare],
-    ["Buy Price", item.buy],
-    ["Sell Price", item.sell],
-    ["Stack", item.stack],
-    ["Value", item.value],
-    ["Hardmode", item.hardmode && "Yes"],
-    ["Expert", item.expert && "Yes"],
-    ["Master", item.master && "Yes"],
-    ["Material", item.material && "Yes"],
-    ["Consumable", item.consumable && "Yes"],
-    ["Quest Item", item.quest && "Yes"],
-  ].filter(([, value]) => value != null && value !== false && value !== "");
+  const stats = [
+    { label: "Rarity", value: item.rare },
+    { label: "Buy", value: item.buy },
+    { label: "Sell", value: item.sell },
+    { label: "Value", value: item.value },
+    { label: "Stack", value: item.stack },
+    { label: "Hardmode", value: item.hardmode ? "Yes" : null },
+  ].filter(({ value }) => value != null && value !== "");
 
   return (
-    <section className="flex mt-6">
-      <div className="overflow-hidden border border-accent rounded-2xl bg-background">
-        <table className="text-sm">
-          <tbody>
-            {rows.map(([label, value], index) => (
-              <tr
-                key={label}
-                className={
-                  index !== rows.length - 1 ? "border-b border-accent" : ""
-                }
-              >
-                <th className="w-32 bg-background px-4 py-2 text-left font-semibold">
-                  {label}
-                </th>
-                <td className="px-4 py-2">{value}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+    <section className="max-w-200 mx-auto mt-8">
+      <div className="  overflow-hidden rounded-2xl border border-accent bg-background">
+        <div className="grid grid-cols-2 divide-x divide-y divide-accent md:grid-cols-3 lg:grid-cols-6">
+          {stats.map(({ label, value }) => (
+            <div
+              key={label}
+              className="flex min-h-24 flex-col justify-center p-5"
+            >
+              <span className="text-xs font-medium uppercase tracking-widest text-muted-foreground">
+                {label}
+              </span>
+
+              <span className="mt-2 text-xl font-bold text-foreground">
+                {value}
+              </span>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
