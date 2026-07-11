@@ -5,7 +5,7 @@ function ItemHeader({ id, item }) {
         <h2 className="font-bold text-lg">{item.name} </h2>
         <img src={`/images/${id}.png`} alt={item.name} className="h-6" />
       </div>
-      <div>{item.tooltip && <p>{item.tooltip}</p>}</div>
+      <div className="text-center">{item.tooltip && <p>{item.tooltip}</p>}</div>
     </section>
   );
 }

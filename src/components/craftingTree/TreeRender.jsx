@@ -48,20 +48,19 @@ function TreeRender({ itemId, itemMap }) {
           className="w-36 shrink-0 rounded-lg border-2 border-accent
           bg-background p-2 hover:scale-110 transition hover:border-green"
         >
-          <div className="flex items-center gap-2">
-            <Link
-              to={`/item/${node.item}`}
-              className="font-semibold text-sm text-green "
-            >
-              <span className="w-6">
-                <img src={`../images/${node.item}.png`} />
-              </span>
-              <span className="font-medium text-[12px] text-indigo">
-                {node.amount}×
-              </span>
-              {item.name}
-            </Link>
-          </div>
+          <Link
+            to={`/item/${node.item}`}
+            className="flex items-center gap-2 font-semibold text-sm text-green "
+          >
+            <span className="w-6">
+              <img src={`../images/${node.item}.png`} />
+            </span>
+            <span className="font-medium text-[12px] text-indigo">
+              {node.amount}×
+            </span>
+            {item.name}
+          </Link>
+          <div className="text-xs text-text">{node.station}</div>
         </div>
 
         {groupedIngredients.length > 0 && (

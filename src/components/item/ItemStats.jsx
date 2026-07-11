@@ -9,7 +9,7 @@ function ItemInfo({ item }) {
   ].filter(({ value }) => value != null && value !== "");
 
   return (
-    <section className="max-w-200 mx-auto mt-8">
+    <section className="max-w-200 mx-auto my-4">
       <div className="  overflow-hidden rounded-2xl border border-accent bg-background">
         <div className="grid grid-cols-2 divide-x divide-y divide-accent md:grid-cols-3 lg:grid-cols-6">
           {stats.map(({ label, value }) => (
