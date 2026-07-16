@@ -55,9 +55,11 @@ function Item() {
 
   return (
     <>
-      <section className="max-w-250 px-2 py-6 mx-auto flex flex-col justify-center">
-        <ItemHeader item={item} id={id} />
-        <ItemInfo item={item} />
+      <section className="max-w-320 px-2 py-6 mx-auto flex flex-col justify-center">
+        <div className="max-w-250 mx-auto">
+          <ItemHeader item={item} id={id} />
+          <ItemInfo item={item} />
+        </div>
 
         {hasCraftingTree ? (
           <div className="lg:w-auto overflow-x-auto p-2">

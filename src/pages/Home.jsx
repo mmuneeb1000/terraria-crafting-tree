@@ -81,7 +81,7 @@ function Home() {
       <section>
         <ItemFeatured />
       </section>
-      <section id="crafting-trees" className="mt-12">
+      <section id="crafting-trees" className="lg:px-30 mt-12">
         <TreeList />
       </section>
       <section>
